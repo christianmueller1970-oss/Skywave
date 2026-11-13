@@ -6,8 +6,11 @@ Zuletzt aufgeräumt: 2026-11-13
 - (nichts offen)
 
 ## Als Nächstes
-- [ ] Nächstes Release: enthält den Fix für das leer erscheinende Betreff-Feld (auf `main`,
-  noch nicht veröffentlicht)
+- [ ] Nächstes Release, nach den ersten Rückmeldungen der Tester: enthält bisher den Fix für
+  das leer erscheinende Betreff-Feld und die neue Adresszeile in den Kontakten (beides auf
+  `main`, noch nicht veröffentlicht)
+- [ ] Seitenleiste: Mindestbreite prüfen – auf Englisch werden «Connections» und «Position
+  report» in schmaler Breite abgeschnitten
 - [ ] ⌘Q beim Tune am Gerät prüfen; QSY über fremden rigctld am Gerät prüfen – Quelle:
   CAT-Konzept 2026-11
 - [ ] CAT-Einstellungen überdenken (Chris), samt Vorgabe für neue Einrichtungen und der
@@ -36,6 +39,8 @@ Zuletzt aufgeräumt: 2026-11-13
 | CAT-Konzept 2026-11 (Plan nicht im Repo) | gemergt 2026-11-12, mit 0.7.0 veröffentlicht | feature/cat-konzept |
 
 ## Kürzlich erledigt
+- [x] Kontakte: Adresse steht vor der Bezeichnung und hat mehr Platz; eine in die Bezeichnung
+  geratene Adresse rückt beim Laden ins Adressfeld (2026-11-13)
 - [x] Verfassen: Betreff-Feld erschien nach dem Einfügen leer (angehängte Leerzeichen aus dem
   Terminal); An, Cc und Betreff bereinigen die Eingabe jetzt, am Debug-Build geprüft
   (2026-11-13)
