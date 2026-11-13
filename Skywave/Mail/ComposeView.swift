@@ -96,15 +96,30 @@ struct ComposeView: View {
                     )
                     .labelsHidden()
                     .autocorrectionDisabled()
+                    .onChange(of: to) { _, new in
+                        let cleaned = SingleLineInput.clean(new)
+                        if cleaned != new { to = cleaned }
+                    }
                     contactsMenu(into: $to, help: String(localized: "Empfänger aus den Kontakten übernehmen"))
                 }
                 LabeledContent("Cc:") {
                     TextField("Cc:", text: $cc)
                         .labelsHidden()
                         .autocorrectionDisabled()
+                        .onChange(of: cc) { _, new in
+                            let cleaned = SingleLineInput.clean(new)
+                            if cleaned != new { cc = cleaned }
+                        }
                     contactsMenu(into: $cc, help: String(localized: "Cc-Empfänger aus den Kontakten übernehmen"))
                 }
                 TextField("Betreff:", text: $subject)
+                    // Eingefügter Text bringt gern einen Zeilenumbruch mit:
+                    // das einzeilige Feld zeigte dann nur die leere erste
+                    // Zeile, und in den Nachrichtenkopf gehört keiner.
+                    .onChange(of: subject) { _, new in
+                        let cleaned = SingleLineInput.clean(new)
+                        if cleaned != new { subject = cleaned }
+                    }
                 if p2pHint {
                     Text("Hinweis: Über eine Direktverbindung (P2P) geht nur Post, die ausschliesslich an das Rufzeichen der Gegenstation adressiert ist.")
                         .font(.caption)
@@ -483,5 +498,26 @@ struct ComposeView: View {
             }
         }
         return String(describing: error)
+    }
+}
+
+/// Eingaben für einzeilige Felder (An, Cc, Betreff) von Zeilenumbrüchen
+/// befreien, wie sie beim Einfügen aus der Zwischenablage mitkommen.
+enum SingleLineInput {
+    /// Umbrüche und Leerraum am Anfang fallen weg, Umbrüche im Text werden
+    /// zu einem Leerzeichen, Umbrüche am Ende fallen weg. Leerzeichen am
+    /// Ende bleiben, sonst liesse sich beim Tippen kein Wort anhängen.
+    static func clean(_ text: String) -> String {
+        guard text.contains(where: \.isNewline) || text.first?.isWhitespace == true else {
+            return text
+        }
+        let lines = text.split(whereSeparator: \.isNewline)
+            .map { $0.trimmingCharacters(in: .whitespaces) }
+            .filter { !$0.isEmpty }
+        guard !lines.isEmpty else { return "" }
+        var result = lines.joined(separator: " ")
+        // Ein getipptes Leerzeichen am Ende behalten (kein Umbruch dahinter).
+        if let last = text.last, last == " " { result += " " }
+        return result
     }
 }
