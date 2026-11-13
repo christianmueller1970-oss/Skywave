@@ -113,9 +113,8 @@ struct ComposeView: View {
                     contactsMenu(into: $cc, help: String(localized: "Cc-Empfänger aus den Kontakten übernehmen"))
                 }
                 TextField("Betreff:", text: $subject)
-                    // Eingefügter Text bringt gern einen Zeilenumbruch mit:
-                    // das einzeilige Feld zeigte dann nur die leere erste
-                    // Zeile, und in den Nachrichtenkopf gehört keiner.
+                    // Eingefügter Text bringt Leerraum und Umbrüche mit;
+                    // siehe `SingleLineInput`.
                     .onChange(of: subject) { _, new in
                         let cleaned = SingleLineInput.clean(new)
                         if cleaned != new { subject = cleaned }
@@ -501,23 +500,25 @@ struct ComposeView: View {
     }
 }
 
-/// Eingaben für einzeilige Felder (An, Cc, Betreff) von Zeilenumbrüchen
-/// befreien, wie sie beim Einfügen aus der Zwischenablage mitkommen.
+/// Eingaben für einzeilige Felder (An, Cc, Betreff) von dem befreien, was
+/// beim Einfügen aus der Zwischenablage mitkommt.
 enum SingleLineInput {
-    /// Umbrüche und Leerraum am Anfang fallen weg, Umbrüche im Text werden
-    /// zu einem Leerzeichen, Umbrüche am Ende fallen weg. Leerzeichen am
-    /// Ende bleiben, sonst liesse sich beim Tippen kein Wort anhängen.
+    /// Leerraum am Anfang fällt weg, Umbrüche im Text werden zu einem
+    /// Leerzeichen, Leerraum am Ende schrumpft auf höchstens ein Leerzeichen.
+    ///
+    /// Der Anlass (2026-11-13): eine aus dem Terminal kopierte Zeile bringt
+    /// hunderte Leerzeichen am Ende mit. Das Feld rollt dann ans Ende und
+    /// sieht leer aus, obwohl der Text im Fenstertitel steht. Ein einzelnes
+    /// Leerzeichen am Ende bleibt, sonst liesse sich beim Tippen kein Wort
+    /// anhängen.
     static func clean(_ text: String) -> String {
-        guard text.contains(where: \.isNewline) || text.first?.isWhitespace == true else {
-            return text
-        }
-        let lines = text.split(whereSeparator: \.isNewline)
+        let parts = text.split(whereSeparator: \.isNewline)
             .map { $0.trimmingCharacters(in: .whitespaces) }
             .filter { !$0.isEmpty }
-        guard !lines.isEmpty else { return "" }
-        var result = lines.joined(separator: " ")
-        // Ein getipptes Leerzeichen am Ende behalten (kein Umbruch dahinter).
-        if let last = text.last, last == " " { result += " " }
+        var result = parts.joined(separator: " ")
+        if !result.isEmpty, let last = text.last, last.isWhitespace, !last.isNewline {
+            result += " "
+        }
         return result
     }
 }
