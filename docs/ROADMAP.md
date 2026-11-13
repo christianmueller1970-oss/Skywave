@@ -3,7 +3,7 @@
 Zuletzt aufgeräumt: 2026-11-13
 
 ## Jetzt
-- [ ] Repo öffentlich stellen: Neustart ohne Historie, Sichtbarkeit umstellen – Quelle:
+- [ ] Repo öffentlich stellen: Sichtprüfung auf GitHub und Sichtbarkeit umstellen (Chris) – Quelle:
   `docs/plans/2026-11-13-repo-oeffentlich.md`
 
 ## Als Nächstes
@@ -29,7 +29,7 @@ Zuletzt aufgeräumt: 2026-11-13
 ## Pläne
 | Plan | Status | Branch |
 |---|---|---|
-| [Repo öffentlich](plans/2026-11-13-repo-oeffentlich.md) | Etappen 1 bis 3 von 6 umgesetzt (2026-11-13) | feature/repo-oeffentlich |
+| [Repo öffentlich](plans/2026-11-13-repo-oeffentlich.md) | Etappen 1 bis 4 von 6 umgesetzt (2026-11-13) | feature/repo-oeffentlich |
 | [Sprachwahl](plans/2026-11-13-sprachwahl.md) | gemergt 2026-11-13, mit 0.8.0 veröffentlicht | feature/sprachwahl |
 | [UI-Konzept](plans/2026-11-12-ui-konzept.md) | gemergt 2026-11-12, mit 0.8.0 veröffentlicht | feature/ui-konzept |
 | CAT-Konzept 2026-11 (Plan nicht im Repo) | gemergt 2026-11-12, mit 0.7.0 veröffentlicht | feature/cat-konzept |

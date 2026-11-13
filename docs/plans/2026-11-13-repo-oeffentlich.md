@@ -1,6 +1,6 @@
 # Feature: Skywave-Repo öffentlich stellen
 
-Stand: 2026-11-13 · Projekt: Skywave · Branch: feature/repo-oeffentlich · Status: Etappen 1 bis 3 umgesetzt (2026-11-13)
+Stand: 2026-11-13 · Projekt: Skywave · Branch: feature/repo-oeffentlich · Status: Etappen 1 bis 4 umgesetzt (2026-11-13); das Repo ist noch privat, die Sichtbarkeit stellt Chris um
 
 ## Ziel
 Der Quellcode von Skywave ist öffentlich auf GitHub, unter der bestehenden MIT-Lizenz. Jeder
@@ -78,25 +78,28 @@ App HAM-Tools, keine persönlichen Pfade.
    dabei.
 4. **Neustart:** bereinigten Stand in ein leeres Verzeichnis kopieren, ein Commit, Prüfung
    (siehe Risiken), altes Repo umbenennen, neues privates Repo `Skywave` anlegen und pushen.
+   **Erledigt 2026-11-13:** erster Commit `95376f6`, Prüfungen ohne Befund, lokales
+   Arbeitsverzeichnis umgehängt.
 5. **Öffentlich stellen:** letzte Sichtprüfung auf GitHub, dann Sichtbarkeit umstellen
    (Chris).
 6. **Nachziehen:** lokales Verzeichnis umhängen, Memorys und Handover-Notizen korrigieren,
    README-Link in `Skywave-releases` prüfen.
 
 ## Abnahmekriterien
-- [ ] Im neuen Repo gibt es genau einen Commit; `git log --all` zeigt keine alten Commits.
-- [ ] Suche im neuen Stand nach `HAMRechner`, `PORT-HAMTOOLS`, `gmail`, `/Users/chris`,
+- [x] Im neuen Repo gibt es genau einen Commit; `git log --all` zeigt keine alten Commits. Beim Anlegen geprüft (2026-11-13).
+- [x] Suche im neuen Stand nach `HAMRechner`, `PORT-HAMTOOLS`, `gmail`, `/Users/chris`,
   `claude.ai/artifact` und `~/Developer` liefert nichts. Bekannte Ausnahme: das ardopcf-Binary
   enthält die Bauverzeichnisse `/Users/chris/Developer/ardopcf/…` als Debug-Angaben. Es steckt
   so bereits in den veröffentlichten Versionen und bleibt unverändert, weil es das on air
-  geprüfte Modem ist.
-- [ ] Mustersuche nach Passwörtern, Keys und Tokens im neuen Stand liefert nichts.
-- [ ] Ein frischer Klon des neuen Repos baut ohne Winlink-Key mit `xcodegen generate` und
-  `xcodebuild build` (WinlinkKit als Nachbarverzeichnis), Suite grün.
+  geprüfte Modem ist. Zweite Ausnahme: dieser Plan nennt die entfernten Dateien beim Namen.
+- [x] Mustersuche nach Passwörtern, Keys und Tokens im neuen Stand liefert nichts.
+- [x] Ein frischer Klon des neuen Repos baut ohne Winlink-Key mit `xcodegen generate` und
+  `xcodebuild build` (WinlinkKit als Nachbarverzeichnis), Suite grün. Geprüft am Stand des ersten
+  Commits vor dem Push (165 Tests), nicht an einem Klon von GitHub.
 - [ ] README nennt für ardopcf und rigctld je einen öffentlichen Quellort; beide Links
   antworten.
-- [ ] Das alte Repo heisst `Skywave-archiv` und ist privat.
-- [ ] Sparkle-Feed und Download von 0.8.0 antworten wie vorher.
+- [x] Das alte Repo heisst `Skywave-archiv` und ist privat.
+- [x] Sparkle-Feed und Download von 0.8.0 antworten wie vorher.
 
 ## Risiken / Backup
 - **Nicht rückholbar:** Was einmal öffentlich war, kann geklont worden sein. Deshalb bleibt das
