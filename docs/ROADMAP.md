@@ -3,8 +3,7 @@
 Zuletzt aufgeräumt: 2026-11-13
 
 ## Jetzt
-- [ ] Repo öffentlich stellen: Sichtprüfung auf GitHub und Sichtbarkeit umstellen (Chris) – Quelle:
-  `docs/plans/2026-11-13-repo-oeffentlich.md`
+- (nichts offen)
 
 ## Als Nächstes
 - [ ] ⌘Q beim Tune am Gerät prüfen; QSY über fremden rigctld am Gerät prüfen – Quelle:
@@ -29,12 +28,14 @@ Zuletzt aufgeräumt: 2026-11-13
 ## Pläne
 | Plan | Status | Branch |
 |---|---|---|
-| [Repo öffentlich](plans/2026-11-13-repo-oeffentlich.md) | Etappen 1 bis 4 von 6 umgesetzt (2026-11-13) | feature/repo-oeffentlich |
+| [Repo öffentlich](plans/2026-11-13-repo-oeffentlich.md) | umgesetzt, öffentlich seit 2026-11-13 | – |
 | [Sprachwahl](plans/2026-11-13-sprachwahl.md) | gemergt 2026-11-13, mit 0.8.0 veröffentlicht | feature/sprachwahl |
 | [UI-Konzept](plans/2026-11-12-ui-konzept.md) | gemergt 2026-11-12, mit 0.8.0 veröffentlicht | feature/ui-konzept |
 | CAT-Konzept 2026-11 (Plan nicht im Repo) | gemergt 2026-11-12, mit 0.7.0 veröffentlicht | feature/cat-konzept |
 
 ## Kürzlich erledigt
+- [x] Repo öffentlich gestellt (MIT): Neustart ohne frühere Historie, Quellstand und Bauskript
+  für rigctld, macOS-Port von ardopcf als eigenes öffentliches Repo (2026-11-13)
 - [x] Update von 0.7.0 auf 0.8.0 über Sparkle an der installierten App eingespielt (Angabe
   Chris, 2026-11-13: «Update war erfolgreich»)
 - [x] Skywave 0.8.0 (Build 14) veröffentlicht: notarisierter Kandidat `8890004`, GitHub-Release

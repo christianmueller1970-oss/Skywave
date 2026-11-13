@@ -1,6 +1,6 @@
 # Feature: Skywave-Repo öffentlich stellen
 
-Stand: 2026-11-13 · Projekt: Skywave · Branch: feature/repo-oeffentlich · Status: Etappen 1 bis 4 umgesetzt (2026-11-13); das Repo ist noch privat, die Sichtbarkeit stellt Chris um
+Stand: 2026-11-13 · Projekt: Skywave · Status: umgesetzt, das Repo ist seit 2026-11-13 öffentlich
 
 ## Ziel
 Der Quellcode von Skywave ist öffentlich auf GitHub, unter der bestehenden MIT-Lizenz. Jeder
@@ -81,9 +81,10 @@ App HAM-Tools, keine persönlichen Pfade.
    **Erledigt 2026-11-13:** erster Commit `95376f6`, Prüfungen ohne Befund, lokales
    Arbeitsverzeichnis umgehängt.
 5. **Öffentlich stellen:** letzte Sichtprüfung auf GitHub, dann Sichtbarkeit umstellen
-   (Chris).
+   (Chris). **Erledigt 2026-11-13** durch Chris.
 6. **Nachziehen:** lokales Verzeichnis umhängen, Memorys und Handover-Notizen korrigieren,
-   README-Link in `Skywave-releases` prüfen.
+   README-Link in `Skywave-releases` prüfen. **Erledigt 2026-11-13:** Verzeichnis
+   umgehängt, Notizen korrigiert. `Skywave-releases` hat kein README, dort ist nichts zu ändern.
 
 ## Abnahmekriterien
 - [x] Im neuen Repo gibt es genau einen Commit; `git log --all` zeigt keine alten Commits. Beim Anlegen geprüft (2026-11-13).
@@ -96,8 +97,8 @@ App HAM-Tools, keine persönlichen Pfade.
 - [x] Ein frischer Klon des neuen Repos baut ohne Winlink-Key mit `xcodegen generate` und
   `xcodebuild build` (WinlinkKit als Nachbarverzeichnis), Suite grün. Geprüft am Stand des ersten
   Commits vor dem Push (165 Tests), nicht an einem Klon von GitHub.
-- [ ] README nennt für ardopcf und rigctld je einen öffentlichen Quellort; beide Links
-  antworten.
+- [x] README nennt für ardopcf und rigctld je einen öffentlichen Quellort; beide Links
+  antworten. Von aussen geprüft (2026-11-13), ebenso ein anonymer Klon.
 - [x] Das alte Repo heisst `Skywave-archiv` und ist privat.
 - [x] Sparkle-Feed und Download von 0.8.0 antworten wie vorher.
 
