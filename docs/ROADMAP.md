@@ -6,6 +6,8 @@ Zuletzt aufgeräumt: 2026-11-13
 - (nichts offen)
 
 ## Als Nächstes
+- [ ] Nächstes Release: enthält den Fix für das leer erscheinende Betreff-Feld (auf `main`,
+  noch nicht veröffentlicht)
 - [ ] ⌘Q beim Tune am Gerät prüfen; QSY über fremden rigctld am Gerät prüfen – Quelle:
   CAT-Konzept 2026-11
 - [ ] CAT-Einstellungen überdenken (Chris), samt Vorgabe für neue Einrichtungen und der
@@ -34,6 +36,9 @@ Zuletzt aufgeräumt: 2026-11-13
 | CAT-Konzept 2026-11 (Plan nicht im Repo) | gemergt 2026-11-12, mit 0.7.0 veröffentlicht | feature/cat-konzept |
 
 ## Kürzlich erledigt
+- [x] Verfassen: Betreff-Feld erschien nach dem Einfügen leer (angehängte Leerzeichen aus dem
+  Terminal); An, Cc und Betreff bereinigen die Eingabe jetzt, am Debug-Build geprüft
+  (2026-11-13)
 - [x] Erste Funksitzung mit 0.8.0: HB9AK auf 80 m erfolgreich kontaktiert (Angabe Chris,
   2026-11-13)
 - [x] `scripts/build-hamlib.sh` vollständig durchlaufen lassen (in einer Kopie): rigctld 4.7.1,
