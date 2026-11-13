@@ -96,15 +96,29 @@ struct ComposeView: View {
                     )
                     .labelsHidden()
                     .autocorrectionDisabled()
+                    .onChange(of: to) { _, new in
+                        let cleaned = SingleLineInput.clean(new)
+                        if cleaned != new { to = cleaned }
+                    }
                     contactsMenu(into: $to, help: String(localized: "Empfänger aus den Kontakten übernehmen"))
                 }
                 LabeledContent("Cc:") {
                     TextField("Cc:", text: $cc)
                         .labelsHidden()
                         .autocorrectionDisabled()
+                        .onChange(of: cc) { _, new in
+                            let cleaned = SingleLineInput.clean(new)
+                            if cleaned != new { cc = cleaned }
+                        }
                     contactsMenu(into: $cc, help: String(localized: "Cc-Empfänger aus den Kontakten übernehmen"))
                 }
                 TextField("Betreff:", text: $subject)
+                    // Eingefügter Text bringt Leerraum und Umbrüche mit;
+                    // siehe `SingleLineInput`.
+                    .onChange(of: subject) { _, new in
+                        let cleaned = SingleLineInput.clean(new)
+                        if cleaned != new { subject = cleaned }
+                    }
                 if p2pHint {
                     Text("Hinweis: Über eine Direktverbindung (P2P) geht nur Post, die ausschliesslich an das Rufzeichen der Gegenstation adressiert ist.")
                         .font(.caption)
@@ -483,5 +497,28 @@ struct ComposeView: View {
             }
         }
         return String(describing: error)
+    }
+}
+
+/// Eingaben für einzeilige Felder (An, Cc, Betreff) von dem befreien, was
+/// beim Einfügen aus der Zwischenablage mitkommt.
+enum SingleLineInput {
+    /// Leerraum am Anfang fällt weg, Umbrüche im Text werden zu einem
+    /// Leerzeichen, Leerraum am Ende schrumpft auf höchstens ein Leerzeichen.
+    ///
+    /// Der Anlass (2026-11-13): eine aus dem Terminal kopierte Zeile bringt
+    /// hunderte Leerzeichen am Ende mit. Das Feld rollt dann ans Ende und
+    /// sieht leer aus, obwohl der Text im Fenstertitel steht. Ein einzelnes
+    /// Leerzeichen am Ende bleibt, sonst liesse sich beim Tippen kein Wort
+    /// anhängen.
+    static func clean(_ text: String) -> String {
+        let parts = text.split(whereSeparator: \.isNewline)
+            .map { $0.trimmingCharacters(in: .whitespaces) }
+            .filter { !$0.isEmpty }
+        var result = parts.joined(separator: " ")
+        if !result.isEmpty, let last = text.last, last.isWhitespace, !last.isNewline {
+            result += " "
+        }
+        return result
     }
 }
