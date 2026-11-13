@@ -25,3 +25,8 @@ are distributed side by side.
 To rebuild the binary yourself, run `scripts/build-hamlib.sh` (needs autoconf, automake,
 libtool and pkg-config, e.g. from Homebrew). It clones Hamlib at the pinned tag, builds both
 architectures and writes `Skywave/Vendor/hamlib/rigctld`.
+
+The script was last run end to end on 2026-11-13 (macOS, Apple Silicon). The result reports the
+same version and source commit as the bundled binary (`Hamlib 4.7.1 … SHA=d042479`), is universal
+and links only system libraries. It is not byte-identical to the bundled binary, which was
+built earlier with a different toolchain version.
