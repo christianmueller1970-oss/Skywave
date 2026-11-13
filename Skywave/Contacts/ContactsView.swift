@@ -205,14 +205,25 @@ private struct ContactForm: View {
 
             Section {
                 ForEach($draft.addresses) { $address in
+                    // Die Adresse steht vorn und bekommt den Platz: sie ist,
+                    // was man hier eintragen will. Die Bezeichnung dahinter
+                    // ist freiwillig. Ohne sichtbare Feldnamen, sonst wird
+                    // die Zeile zu eng und das erste Feld verschluckt Text.
                     HStack {
-                        TextField("Bezeichnung", text: $address.label, prompt: Text("Privat"))
-                            .frame(width: 110)
                         TextField(
                             "Adresse", text: $address.address,
                             prompt: Text("name@example.com")
                         )
+                        .labelsHidden()
+                        .multilineTextAlignment(.leading)
                         .autocorrectionDisabled()
+                        TextField(
+                            "Bezeichnung", text: $address.label,
+                            prompt: Text("Bezeichnung (optional)")
+                        )
+                        .labelsHidden()
+                        .multilineTextAlignment(.leading)
+                        .frame(width: 180)
                         Button {
                             draft.addresses.removeAll { $0.id == address.id }
                         } label: {

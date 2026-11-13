@@ -1689,6 +1689,16 @@
         }
       }
     },
+    "Bezeichnung (optional)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label (optional)"
+          }
+        }
+      }
+    },
     "Bild-Anhänge fürs Funkbudget auf diese Zielgrösse verkleinern" : {
       "localizations" : {
         "en" : {
@@ -5419,16 +5429,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mailbox"
-          }
-        }
-      }
-    },
-    "Privat" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Private"
           }
         }
       }
