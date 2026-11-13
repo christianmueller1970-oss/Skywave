@@ -7,6 +7,27 @@ struct ContactAddress: Identifiable, Hashable, Codable, Sendable {
     var id = UUID()
     var label = ""
     var address = ""
+
+    init(id: UUID = UUID(), label: String = "", address: String = "") {
+        self.id = id
+        self.label = label
+        self.address = address
+    }
+
+    /// Beim Einlesen: steht die Adresse im Feld «Bezeichnung» und das
+    /// Adressfeld ist leer, gehört sie ins Adressfeld. So war es bis 0.8.0
+    /// leicht zu verwechseln — die Bezeichnung stand vorn. Nur beim Laden,
+    /// nie während des Tippens.
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        id = try container.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
+        label = try container.decodeIfPresent(String.self, forKey: .label) ?? ""
+        address = try container.decodeIfPresent(String.self, forKey: .address) ?? ""
+        if address.trimmingCharacters(in: .whitespaces).isEmpty, label.contains("@") {
+            address = label.trimmingCharacters(in: .whitespaces)
+            label = ""
+        }
+    }
 }
 
 /// One address-book entry.

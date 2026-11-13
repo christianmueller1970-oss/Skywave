@@ -83,6 +83,33 @@ private func makeFileURL(_ name: String) -> URL {
     /// contacts.json written by the pre-address-book app (flat
     /// name/address/notes) still loads: a callsign-looking address
     /// becomes the callsign, an email becomes an extra address.
+    /// Bis 0.8.0 stand die Bezeichnung vorn; eine dort eingetragene Adresse
+    /// wandert beim Laden ins Adressfeld.
+    @Test func addressTypedIntoLabelMovesOnLoad() throws {
+        let json = #"{"label":" rene@example.com ","address":""}"#
+        let moved = try JSONDecoder().decode(ContactAddress.self, from: Data(json.utf8))
+        #expect(moved.address == "rene@example.com")
+        #expect(moved.label == "")
+    }
+
+    /// Eine richtige Bezeichnung und eine vorhandene Adresse bleiben stehen.
+    @Test func properLabelAndAddressStayOnLoad() throws {
+        let json = #"{"label":"Privat","address":"rene@example.com"}"#
+        let kept = try JSONDecoder().decode(ContactAddress.self, from: Data(json.utf8))
+        #expect(kept.label == "Privat")
+        #expect(kept.address == "rene@example.com")
+
+        let both = #"{"label":"a@b.ch","address":"c@d.ch"}"#
+        let untouched = try JSONDecoder().decode(ContactAddress.self, from: Data(both.utf8))
+        #expect(untouched.label == "a@b.ch")
+        #expect(untouched.address == "c@d.ch")
+
+        let empty = #"{"label":"Privat","address":""}"#
+        let labelOnly = try JSONDecoder().decode(ContactAddress.self, from: Data(empty.utf8))
+        #expect(labelOnly.label == "Privat")
+        #expect(labelOnly.address == "")
+    }
+
     @Test func legacyFormatMigrates() throws {
         let url = makeFileURL("contacts.json")
         defer { try? FileManager.default.removeItem(at: url.deletingLastPathComponent()) }
