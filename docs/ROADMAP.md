@@ -34,6 +34,8 @@ Zuletzt aufgeräumt: 2026-11-13
 | CAT-Konzept 2026-11 (Plan nicht im Repo) | gemergt 2026-11-12, mit 0.7.0 veröffentlicht | feature/cat-konzept |
 
 ## Kürzlich erledigt
+- [x] Erste Funksitzung mit 0.8.0: HB9AK auf 80 m erfolgreich kontaktiert (Angabe Chris,
+  2026-11-13)
 - [x] `scripts/build-hamlib.sh` vollständig durchlaufen lassen (in einer Kopie): rigctld 4.7.1,
   `d042479`, universal, Smoke-Test grün; das mitgelieferte Binary bleibt unverändert (2026-11-13)
 - [x] Repo öffentlich gestellt (MIT): Neustart ohne frühere Historie, Quellstand und Bauskript
