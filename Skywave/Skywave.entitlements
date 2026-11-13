@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+	<key>com.apple.security.files.user-selected.read-write</key>
+	<true/>
+	<!-- Persist the user's data-folder grant across launches. -->
+	<key>com.apple.security.files.bookmarks.app-scope</key>
+	<true/>
+	<!-- Bundled ardopcf: captures RX audio from the radio's USB codec. -->
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+	<!-- Positionsmeldung: Standort über CoreLocation, nur auf Wunsch. -->
+	<key>com.apple.security.personal-information.location</key>
+	<true/>
+	<!-- Bundled ardopcf: binds its host interface on localhost. -->
+	<key>com.apple.security.network.server</key>
+	<true/>
+	<!-- Bundled ardopcf: CAT/RTS PTT on USB serial (CI-V) devices. -->
+	<key>com.apple.security.device.serial</key>
+	<true/>
+	<!-- Sparkle updater (sandboxed): reach its Installer XPC service. -->
+	<key>com.apple.security.temporary-exception.mach-lookup.global-name</key>
+	<array>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)-spks</string>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER)-spki</string>
+	</array>
+</dict>
+</plist>

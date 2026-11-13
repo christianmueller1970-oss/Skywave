@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Custom keys for Sparkle auto-update. The rest of Info.plist
+	     (CFBundle*, usage strings, category) is produced by
+	     GENERATE_INFOPLIST_FILE and merged on top of these at build time. -->
+	<key>SUFeedURL</key>
+	<string>https://raw.githubusercontent.com/christianmueller1970-oss/Skywave-releases/main/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>CtJyFA8CYW6CE8Ztv5qHOLePv2HWSZkErgS7RfJO3L8=</string>
+	<!-- Sandboxed apps launch the updater through Sparkle's XPC service. -->
+	<key>SUEnableInstallerLauncherService</key>
+	<true/>
+</dict>
+</plist>

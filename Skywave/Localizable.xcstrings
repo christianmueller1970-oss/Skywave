@@ -1,0 +1,7406 @@
+{
+  "sourceLanguage" : "de",
+  "strings" : {
+    "" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    "\n\nBereits übertragen: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "\n\nAlready transferred: %@"
+          }
+        }
+      }
+    },
+    " — Achtung: %@ ist ein isolierter Testserver, Nachrichten werden nicht zugestellt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " — note: %@ is an isolated test server, messages are not delivered."
+          }
+        }
+      }
+    },
+    " an %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " at %@"
+          }
+        }
+      }
+    },
+    " an %@ (%@ Baud)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : " an %1$@ (%2$@ Baud)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " at %@ (%@ baud)"
+          }
+        }
+      }
+    },
+    "—" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "—"
+          }
+        }
+      }
+    },
+    ", %lld bleiben zurückgehalten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ", %lld stay held back"
+          }
+        }
+      }
+    },
+    ", %lld min alt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ", %lld min old"
+          }
+        }
+      }
+    },
+    ", 1 bleibt zurückgehalten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ", 1 stays held back"
+          }
+        }
+      }
+    },
+    "· %@ · %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "· %1$@ · %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "· %@ · %@"
+          }
+        }
+      }
+    },
+    "(ohne Betreff)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "(no subject)"
+          }
+        }
+      }
+    },
+    "%@ – %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ – %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ – %@"
+          }
+        }
+      }
+    },
+    "%@ — %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ — %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ — %@"
+          }
+        }
+      }
+    },
+    "%@ · %@ · %lld empfangen, %lld gesendet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@ · %3$lld empfangen, %4$lld gesendet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · %@ · %lld received, %lld sent"
+          }
+        }
+      }
+    },
+    "%@ · %@ kB" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ · %2$@ kB"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · %@ kB"
+          }
+        }
+      }
+    },
+    "%@ (%@)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (%@)"
+          }
+        }
+      }
+    },
+    "%@ %% übernehmen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply %@ %%"
+          }
+        }
+      }
+    },
+    "%@ Es wird die eingebaute Starterliste gezeigt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ The built-in starter list is shown."
+          }
+        }
+      }
+    },
+    "%@ hat angerufen, starte B2F-Austausch als Master" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ called, starting B2F exchange as master"
+          }
+        }
+      }
+    },
+    "%@ Hz" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ Hz"
+          }
+        }
+      }
+    },
+    "%@ kHz" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ kHz"
+          }
+        }
+      }
+    },
+    "%@ P2P · empfangsbereit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ P2P · listening"
+          }
+        }
+      }
+    },
+    "%@ steht mit %lld Kanälen in der Liste. Oben einen davon wählen — dann kennt Skywave Dial-Frequenz und Bandbreite und stellt sie vor dem Verbinden ein." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ steht mit %2$lld Kanälen in der Liste. Oben einen davon wählen — dann kennt Skywave Dial-Frequenz und Bandbreite und stellt sie vor dem Verbinden ein."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ is listed with %lld channels. Pick one of them above — Skywave then knows the dial frequency and bandwidth and sets them before connecting."
+          }
+        }
+      }
+    },
+    "%@ UTC" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ UTC"
+          }
+        }
+      }
+    },
+    "%@:%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@:%2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@:%@"
+          }
+        }
+      }
+    },
+    "%@°" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@°"
+          }
+        }
+      }
+    },
+    "%lld %%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld %%"
+          }
+        }
+      }
+    },
+    "%lld empfangen · %lld gesendet" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld empfangen · %2$lld gesendet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld received · %lld sent"
+          }
+        }
+      }
+    },
+    "%lld für jeden Weg" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld for any route"
+          }
+        }
+      }
+    },
+    "%lld Hz" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Hz"
+          }
+        }
+      }
+    },
+    "%lld kB" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kB"
+          }
+        }
+      }
+    },
+    "%lld km" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld km"
+          }
+        }
+      }
+    },
+    "%lld Nachrichten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld messages"
+          }
+        }
+      }
+    },
+    "%lld Nachrichten bleiben zurückgehalten im Postausgang" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld messages stay held back in the outbox"
+          }
+        }
+      }
+    },
+    "%lld Nachrichten empfangen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld messages received"
+          }
+        }
+      }
+    },
+    "%lld Nachrichten gehen über Internet raus" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld messages go out over the Internet"
+          }
+        }
+      }
+    },
+    "%lld Nachrichten gesendet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld messages sent"
+          }
+        }
+      }
+    },
+    "%lld Nachrichten im Postausgang" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld messages in the outbox"
+          }
+        }
+      }
+    },
+    "%lld Nachrichten warten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld messages waiting"
+          }
+        }
+      }
+    },
+    "%lld neue Nachrichten empfangen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld new messages received"
+          }
+        }
+      }
+    },
+    "%lld nur über Funk" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld radio only"
+          }
+        }
+      }
+    },
+    "%lld nur über Internet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Internet only"
+          }
+        }
+      }
+    },
+    "%lld Protokolle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld logs"
+          }
+        }
+      }
+    },
+    "%lld ungelesene Nachrichten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld unread messages"
+          }
+        }
+      }
+    },
+    "%lld von %lld Kanälen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld von %2$lld Kanälen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld of %lld channels"
+          }
+        }
+      }
+    },
+    "%lld von %lld Verbindungen" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld von %2$lld Verbindungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld of %lld connections"
+          }
+        }
+      }
+    },
+    "%lld weitere Nachrichten bleiben zurückgehalten (Versandweg)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld more messages stay held back (route)."
+          }
+        }
+      }
+    },
+    "%lld zurückgehalten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld held back"
+          }
+        }
+      }
+    },
+    "%lld zurückgestellt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld deferred"
+          }
+        }
+      }
+    },
+    "%lld/%lld" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld/%lld"
+          }
+        }
+      }
+    },
+    "+%lld h" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "+%lld h"
+          }
+        }
+      }
+    },
+    "=== Skywave-Sitzung %@ (Ortszeit) — Zeilen in UTC ===" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "=== Skywave session %@ (local time) — lines in UTC ==="
+          }
+        }
+      }
+    },
+    "1 Nachricht" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 message"
+          }
+        }
+      }
+    },
+    "1 Nachricht bleibt zurückgehalten im Postausgang" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 message stays held back in the outbox"
+          }
+        }
+      }
+    },
+    "1 Nachricht empfangen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 message received"
+          }
+        }
+      }
+    },
+    "1 Nachricht geht über Internet raus" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 message goes out over the Internet"
+          }
+        }
+      }
+    },
+    "1 Nachricht gesendet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 message sent"
+          }
+        }
+      }
+    },
+    "1 Nachricht im Postausgang" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 message in the outbox"
+          }
+        }
+      }
+    },
+    "1 Nachricht wartet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 message waiting"
+          }
+        }
+      }
+    },
+    "1 neue Nachricht empfangen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 new message received"
+          }
+        }
+      }
+    },
+    "1 ungelesene Nachricht" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 unread message"
+          }
+        }
+      }
+    },
+    "1 weitere Nachricht bleibt zurückgehalten (Versandweg)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 more message stays held back (route)."
+          }
+        }
+      }
+    },
+    "1 zurückgehalten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 held back"
+          }
+        }
+      }
+    },
+    "1 zurückgestellt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 deferred"
+          }
+        }
+      }
+    },
+    "5.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "5.3"
+          }
+        }
+      }
+    },
+    "9.2955" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "9.2955"
+          }
+        }
+      }
+    },
+    "13.3" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "13.3"
+          }
+        }
+      }
+    },
+    "43.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "43.5"
+          }
+        }
+      }
+    },
+    "47.5483" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "47.5483"
+          }
+        }
+      }
+    },
+    "51.5" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "51.5"
+          }
+        }
+      }
+    },
+    "73 de HB9XYZ\nRené, Amriswil" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "73 de HB9XYZ\nRené, Amriswil"
+          }
+        }
+      }
+    },
+    "192.168.1.20" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "192.168.1.20"
+          }
+        }
+      }
+    },
+    "Abbrechen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "Abbruch angefordert …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abort requested …"
+          }
+        }
+      }
+    },
+    "Abfrage" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Query"
+          }
+        }
+      }
+    },
+    "Abfrage löschen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete query"
+          }
+        }
+      }
+    },
+    "Abfrage verfassen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compose query"
+          }
+        }
+      }
+    },
+    "Abfragen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Queries"
+          }
+        }
+      }
+    },
+    "Abfragen verwalten …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage queries …"
+          }
+        }
+      }
+    },
+    "abgebrochen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "aborted"
+          }
+        }
+      }
+    },
+    "Abgebrochen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aborted"
+          }
+        }
+      }
+    },
+    "Abgebrochen — bereits übertragen: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aborted — already transferred: %@"
+          }
+        }
+      }
+    },
+    "Abgebrochen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aborted."
+          }
+        }
+      }
+    },
+    "Abruf" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fetching"
+          }
+        }
+      }
+    },
+    "Abrufen & Senden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send & Receive"
+          }
+        }
+      }
+    },
+    "Abrufen & Senden über %@ …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send & Receive via %@ …"
+          }
+        }
+      }
+    },
+    "Abrufen & Senden über Internet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send & Receive via Internet"
+          }
+        }
+      }
+    },
+    "Abrufen holt neue Nachrichten vom CMS." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fetching collects new messages from the CMS."
+          }
+        }
+      }
+    },
+    "Adresse" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Address"
+          }
+        }
+      }
+    },
+    "Adresse des Funkgeräts" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Address of the rig"
+          }
+        }
+      }
+    },
+    "Adresse entfernen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove address"
+          }
+        }
+      }
+    },
+    "Adresse hinzufügen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add address"
+          }
+        }
+      }
+    },
+    "Aktualisieren" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh"
+          }
+        }
+      }
+    },
+    "Aktualisiert %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updated %@"
+          }
+        }
+      }
+    },
+    "Aktueller Pegel:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current level:"
+          }
+        }
+      }
+    },
+    "ALC" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ALC"
+          }
+        }
+      }
+    },
+    "ALC sprach bis 100 % nicht an." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ALC did not respond up to 100 %."
+          }
+        }
+      }
+    },
+    "Alle 2 Stunden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every 2 hours"
+          }
+        }
+      }
+    },
+    "Alle 15 Minuten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every 15 minutes"
+          }
+        }
+      }
+    },
+    "Alle 30 Minuten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every 30 minutes"
+          }
+        }
+      }
+    },
+    "Alle Bänder" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All bands"
+          }
+        }
+      }
+    },
+    "Alle Ergebnisse" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All results"
+          }
+        }
+      }
+    },
+    "Alle Gateways anzeigen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show all gateways …"
+          }
+        }
+      }
+    },
+    "Alle Kontakte" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All contacts"
+          }
+        }
+      }
+    },
+    "Alle Kontakte (%lld)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All contacts (%lld)"
+          }
+        }
+      }
+    },
+    "Alle Nachrichten im Papierkorb werden endgültig entfernt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All messages in the trash will be removed permanently."
+          }
+        }
+      }
+    },
+    "Alle Verbindungen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All connections"
+          }
+        }
+      }
+    },
+    "Alle Wege" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All routes"
+          }
+        }
+      }
+    },
+    "Allen antworten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reply all"
+          }
+        }
+      }
+    },
+    "Alles gelesen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All read"
+          }
+        }
+      }
+    },
+    "Allgemein" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
+        }
+      }
+    },
+    "Als Abfrage speichern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save as query"
+          }
+        }
+      }
+    },
+    "Als Entwurf speichern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save as draft"
+          }
+        }
+      }
+    },
+    "Als Favorit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add to favourites"
+          }
+        }
+      }
+    },
+    "Als gelesen markieren" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mark as read"
+          }
+        }
+      }
+    },
+    "Als Standard-Signatur verwenden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use as default signature"
+          }
+        }
+      }
+    },
+    "Als ungelesen markieren" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mark as unread"
+          }
+        }
+      }
+    },
+    "Amriswil" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amriswil"
+          }
+        }
+      }
+    },
+    "An" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To"
+          }
+        }
+      }
+    },
+    "an %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "at %@"
+          }
+        }
+      }
+    },
+    "An:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To:"
+          }
+        }
+      }
+    },
+    "Angeboten wird, was ausschliesslich an die anrufende Station adressiert ist." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only mail addressed exclusively to the calling station is offered."
+          }
+        }
+      }
+    },
+    "Anhang sichern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save attachment"
+          }
+        }
+      }
+    },
+    "Anhängen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attach …"
+          }
+        }
+      }
+    },
+    "Anlegen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create"
+          }
+        }
+      }
+    },
+    "Anmeldung fehlgeschlagen — bitte das Winlink-Passwort in den Einstellungen prüfen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login failed — please check the Winlink password in Settings."
+          }
+        }
+      }
+    },
+    "Anschluss" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection"
+          }
+        }
+      }
+    },
+    "Ansicht" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View"
+          }
+        }
+      }
+    },
+    "Antwort auf eine Abfrage (Katalog/Saildocs)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reply to a query (catalog/Saildocs)"
+          }
+        }
+      }
+    },
+    "Antworten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reply"
+          }
+        }
+      }
+    },
+    "Anzeigen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show"
+          }
+        }
+      }
+    },
+    "ARDOP" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ARDOP"
+          }
+        }
+      }
+    },
+    "ardopcf läuft (Port %@)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ardopcf running (port %@)."
+          }
+        }
+      }
+    },
+    "ardopcf tastet auf diesem Weg selbst und hält den Port während der Sitzung. Frequenz und Modus zeigt Skywave hier nicht laufend an; «Verbindung testen» steht in den Einstellungen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On this route ardopcf keys by itself and holds the port during the session. Skywave does not show frequency and mode continuously here; “Test connection” is in Settings."
+          }
+        }
+      }
+    },
+    "ardopcf über CI-V" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ardopcf via CI-V"
+          }
+        }
+      }
+    },
+    "Audio-Ausgang (zum TRX)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio output (to TRX)"
+          }
+        }
+      }
+    },
+    "Audio-Eingang (vom TRX)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Audio input (from TRX)"
+          }
+        }
+      }
+    },
+    "Auflösung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolution"
+          }
+        }
+      }
+    },
+    "Aus (Vorgabe): Das Funkgerät bleibt nach dem Austausch auf dem Kanal des Gateways stehen — der nächste Ruf läuft ohne erneutes Umstimmen. Ein: Frequenz und Modus von vor der Sitzung werden wiederhergestellt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off (default): the rig stays on the gateway's channel after the exchange — the next call runs without retuning. On: frequency and mode from before the session are restored."
+          }
+        }
+      }
+    },
+    "Ausgewählten Kontakt löschen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete selected contact"
+          }
+        }
+      }
+    },
+    "Austausch fehlgeschlagen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exchange failed"
+          }
+        }
+      }
+    },
+    "Austausch läuft …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exchange in progress …"
+          }
+        }
+      }
+    },
+    "Austausch über %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exchange via %@"
+          }
+        }
+      }
+    },
+    "Austausch über Internet (CMS)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exchange via Internet (CMS)"
+          }
+        }
+      }
+    },
+    "Automatisch abrufen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fetch automatically"
+          }
+        }
+      }
+    },
+    "Automatisch messen kann der Assistent nur über rigctld — bei PTT über CI-V sendet er den Ton, und du liest die ALC am Gerät ab." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The assistant can only measure automatically through rigctld — with PTT over CI-V it sends the tone and you read the ALC on the rig."
+          }
+        }
+      }
+    },
+    "Band" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Band"
+          }
+        }
+      }
+    },
+    "Bandbreite" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bandwidth"
+          }
+        }
+      }
+    },
+    "Bandbreite erzwingen (FORCED)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Force bandwidth (FORCED)"
+          }
+        }
+      }
+    },
+    "Baudrate" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baud rate"
+          }
+        }
+      }
+    },
+    "Bearbeiten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        }
+      }
+    },
+    "Beende …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quitting …"
+          }
+        }
+      }
+    },
+    "Beim Start automatisch verbinden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect automatically at launch"
+          }
+        }
+      }
+    },
+    "Beliebig" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Any"
+          }
+        }
+      }
+    },
+    "Beliebiges Katalog-Item anfordern — Item-Name in den Text schreiben" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request any catalog item — write the item name into the text"
+          }
+        }
+      }
+    },
+    "Bereit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready"
+          }
+        }
+      }
+    },
+    "Bereit." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready."
+          }
+        }
+      }
+    },
+    "Betreff" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subject"
+          }
+        }
+      }
+    },
+    "Betreff:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subject:"
+          }
+        }
+      }
+    },
+    "Betrieb" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mode"
+          }
+        }
+      }
+    },
+    "Bezeichnung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Label"
+          }
+        }
+      }
+    },
+    "Bild-Anhänge fürs Funkbudget auf diese Zielgrösse verkleinern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shrink image attachments to this target size for the radio budget"
+          }
+        }
+      }
+    },
+    "Bilder: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Images: %@"
+          }
+        }
+      }
+    },
+    "Bildgrösse" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Image size"
+          }
+        }
+      }
+    },
+    "Bitte das Rufzeichen der Gegenstation angeben." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter the callsign of the remote station."
+          }
+        }
+      }
+    },
+    "Bitte den Host des rigctld eintragen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter the rigctld host."
+          }
+        }
+      }
+    },
+    "Bitte den seriellen Port wählen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please choose the serial port."
+          }
+        }
+      }
+    },
+    "Bitte die Adresse des Funkgeräts eintragen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter the address of the rig."
+          }
+        }
+      }
+    },
+    "Bitte ein Gateway-Rufzeichen angeben." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter a gateway callsign."
+          }
+        }
+      }
+    },
+    "Bitte einen Betreff angeben." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter a subject."
+          }
+        }
+      }
+    },
+    "Bitte einen Ordnernamen ohne «/» angeben." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter a folder name without “/”."
+          }
+        }
+      }
+    },
+    "Bitte Hersteller und Modell wählen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please choose manufacturer and model."
+          }
+        }
+      }
+    },
+    "Bitte im Tab «Funkgerät» der Einstellungen prüfen, ob die Verbindung steht." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please check in the “Rig” tab of Settings whether the connection is up."
+          }
+        }
+      }
+    },
+    "Bitte mindestens einen Empfänger angeben." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter at least one recipient."
+          }
+        }
+      }
+    },
+    "Bitte wählen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please choose"
+          }
+        }
+      }
+    },
+    "Bitte zuerst das Rufzeichen in den Einstellungen (⌘,) hinterlegen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter your callsign in Settings (⌘,) first."
+          }
+        }
+      }
+    },
+    "Bitte zuerst Rufzeichen und Winlink-Passwort in den Einstellungen (⌘,) hinterlegen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please enter your callsign and Winlink password in Settings (⌘,) first."
+          }
+        }
+      }
+    },
+    "Bleibt im Postausgang, bis die Kennzeichnung geändert wird." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stays in the outbox until the marking is changed."
+          }
+        }
+      }
+    },
+    "bleibt nach der Sitzung stehen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "stays there after the session"
+          }
+        }
+      }
+    },
+    "Breche Sitzung wegen PTT-Fehler ab …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aborting session because of a PTT error …"
+          }
+        }
+      }
+    },
+    "Breite (Dezimalgrad)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latitude (decimal degrees)"
+          }
+        }
+      }
+    },
+    "Breite und Länge als Dezimalgrad eingeben." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter latitude and longitude in decimal degrees."
+          }
+        }
+      }
+    },
+    "CAT (Icom CI-V)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CAT (Icom CI-V)"
+          }
+        }
+      }
+    },
+    "Cc-Empfänger aus den Kontakten übernehmen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take Cc recipients from contacts"
+          }
+        }
+      }
+    },
+    "Cc:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cc:"
+          }
+        }
+      }
+    },
+    "Center-Frequenz" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Centre frequency"
+          }
+        }
+      }
+    },
+    "CI-V direkt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CI-V direct"
+          }
+        }
+      }
+    },
+    "CI-V direkt — kein Port gewählt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CI-V direct — no port selected"
+          }
+        }
+      }
+    },
+    "CI-V direkt an %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CI-V direct at %@"
+          }
+        }
+      }
+    },
+    "CI-V-Adresse (hex)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CI-V address (hex)"
+          }
+        }
+      }
+    },
+    "CMS-Host" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CMS host"
+          }
+        }
+      }
+    },
+    "Command-Port" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Command port"
+          }
+        }
+      }
+    },
+    "Control-Port" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control port"
+          }
+        }
+      }
+    },
+    "Das Funkgerät antwortet nicht an %@ — CI-V-Adresse und Baudrate prüfen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The rig does not respond at %@ — check CI-V address and baud rate."
+          }
+        }
+      }
+    },
+    "Das Funkgerät ist nicht verbunden — bitte im Tab «Funkgerät» der Einstellungen einrichten und verbinden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The rig is not connected — please set it up and connect in the “Rig” tab of Settings."
+          }
+        }
+      }
+    },
+    "Das Funkgerät ist nicht verbunden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The rig is not connected."
+          }
+        }
+      }
+    },
+    "Das Funkgerät meldet keine ALC — bitte von Hand einstellen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The rig does not report ALC — please set the level by hand."
+          }
+        }
+      }
+    },
+    "Das Funkgerät%@ antwortet nicht — eingeschaltet? Modell, Port und Baudrate prüfen. (%@)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Das Funkgerät%1$@ antwortet nicht — eingeschaltet? Modell, Port und Baudrate prüfen. (%2$@)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The rig%@ does not respond — is it switched on? Check model, port and baud rate. (%@)"
+          }
+        }
+      }
+    },
+    "Das integrierte ardopcf fehlt im App-Bundle — bitte Skywave neu installieren." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The integrated ardopcf is missing from the app bundle — please reinstall Skywave."
+          }
+        }
+      }
+    },
+    "Das integrierte ardopcf liess sich nicht starten: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The integrated ardopcf could not be started: %@"
+          }
+        }
+      }
+    },
+    "Das integrierte ardopcf meldet sich nicht — bitte die Einstellungen (Funk) prüfen und erneut versuchen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The integrated ardopcf does not respond — please check Settings (Radio) and try again."
+          }
+        }
+      }
+    },
+    "Das integrierte ardopcf tastet selbst über CI-V; Skywave nutzt denselben Port nur vor und nach der Sitzung. Nur Icom." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The integrated ardopcf keys by itself over CI-V; Skywave uses the same port only before and after the session. Icom only."
+          }
+        }
+      }
+    },
+    "Das integrierte ardopcf wurde unerwartet beendet — meist stimmt die Audio-Geräteauswahl nicht (Einstellungen → Funk). Letzte Meldungen:\n%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The integrated ardopcf quit unexpectedly — usually the audio device selection is wrong (Settings → Radio). Last messages:\n%@"
+          }
+        }
+      }
+    },
+    "Das Passwort deines Winlink-Kontos (winlink.org). Es wird ausschliesslich im Schlüsselbund gespeichert." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The password of your Winlink account (winlink.org). It is stored in the keychain only."
+          }
+        }
+      }
+    },
+    "Das Rufzeichen ist die Winlink-Adresse; hier stehen zusätzliche Wege wie E-Mail." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The callsign is the Winlink address; additional routes such as e-mail go here."
+          }
+        }
+      }
+    },
+    "Das VARA-HF- bzw. VARA-FM-Programm muss laufen und auf diesen Ports erreichbar sein (Standard: localhost, 8300/8301). VARA tastet den Sender selbst — CAT/PTT im VARA-Programm konfigurieren." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The VARA HF or VARA FM program must be running and reachable on these ports (default: localhost, 8300/8301). VARA keys the transmitter itself — configure CAT/PTT in the VARA program."
+          }
+        }
+      }
+    },
+    "Das Winlink-Passwort bleibt weiterhin sicher im Schlüsselbund." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Winlink password stays safe in the keychain."
+          }
+        }
+      }
+    },
+    "Data-Port" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data port"
+          }
+        }
+      }
+    },
+    "Datum:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Date:"
+          }
+        }
+      }
+    },
+    "Dauer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duration"
+          }
+        }
+      }
+    },
+    "Dem Absender antworten (⌘R) — allen antworten: Menü «Nachricht»" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reply to the sender (⌘R) — reply all: menu “Message”"
+          }
+        }
+      }
+    },
+    "Denselben Weg noch einmal versuchen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try the same route again"
+          }
+        }
+      }
+    },
+    "Der ARDOP-TNC muss laufen und auf diesen Ports erreichbar sein (Standard: localhost, 8515/8516)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The ARDOP TNC must be running and reachable on these ports (default: localhost, 8515/8516)."
+          }
+        }
+      }
+    },
+    "Der Assistent **sendet** — mehrere Sekunden je Stufe. Nur auf einer freien Frequenz oder in die Kunstlast, und mit angeschlossener Antenne bzw. Dummy-Load." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The assistant **transmits** — several seconds per step. Only on a clear frequency or into a dummy load, and with an antenna or dummy load connected."
+          }
+        }
+      }
+    },
+    "Der Assistent sendet einen Zweiton und erhöht den Pegel Stufe für Stufe, bis die ALC-Anzeige des Geräts anspricht. Übernommen wird die Stufe **darunter** — dort greift die Regelung noch nicht, und genau das ist das Ziel: Was die ALC begrenzt, verzerrt sie auch. Jede Stufe dauert fünf Sekunden, der ganze Durchlauf also bis zu einer Minute." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The assistant transmits a two-tone signal and raises the level step by step until the rig's ALC meter responds. The step **below** that is applied — there the ALC is not yet acting, and that is exactly the goal: whatever the ALC limits, it also distorts. Each step takes five seconds, so the whole run takes up to a minute."
+          }
+        }
+      }
+    },
+    "Der Betreff ist zu lang (max. 128 Zeichen)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The subject is too long (max. 128 characters)."
+          }
+        }
+      }
+    },
+    "Der CMS-Server lehnt Skywave als unbekannten Client ab — das sollte seit der Registrierung nicht mehr vorkommen. Bitte den CMS-Host in den Einstellungen prüfen; als Ausweichlösung %@ (Testserver, keine Zustellung) verwenden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The CMS server rejects Skywave as an unknown client — this should no longer happen since the registration. Please check the CMS host in Settings; as a fallback use %@ (test server, no delivery)."
+          }
+        }
+      }
+    },
+    "Der Locator «%@» ist kein gültiger Maidenhead-Locator." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The locator “%@” is not a valid Maidenhead locator."
+          }
+        }
+      }
+    },
+    "Der mitgelieferte rigctld fehlt im App-Bundle — bitte Skywave neu installieren." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The bundled rigctld is missing from the app bundle — please reinstall Skywave."
+          }
+        }
+      }
+    },
+    "Der mitgelieferte rigctld liess sich nicht starten: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The bundled rigctld could not be started: %@"
+          }
+        }
+      }
+    },
+    "Der Pegel reicht nicht aus" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The level is not sufficient"
+          }
+        }
+      }
+    },
+    "Der Pegel-Assistent braucht das integrierte ardopcf (Einstellungen → Funk)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Level Assistant needs the integrated ardopcf (Settings → Radio)."
+          }
+        }
+      }
+    },
+    "Der Port %@ für den mitgelieferten rigctld ist bereits belegt — läuft noch ein anderer rigctld? Bitte erneut verbinden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Port %@ for the bundled rigctld is already in use — is another rigctld still running? Please connect again."
+          }
+        }
+      }
+    },
+    "Der Port %@ lässt sich nicht öffnen: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Der Port %1$@ lässt sich nicht öffnen: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The port %@ cannot be opened: %@"
+          }
+        }
+      }
+    },
+    "Der Server meldet einen Fehler: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The server reports an error: %@"
+          }
+        }
+      }
+    },
+    "Der Test öffnet den Port kurz und liest Frequenz und Modus. Während einer Funk-Sitzung hält ardopcf den Port." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The test opens the port briefly and reads frequency and mode. During a radio session ardopcf holds the port."
+          }
+        }
+      }
+    },
+    "Der Winlink-Zugangsschlüssel wurde abgelehnt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Winlink access key was rejected."
+          }
+        }
+      }
+    },
+    "Dezimalgrad, Nord und Ost positiv." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decimal degrees, north and east positive."
+          }
+        }
+      }
+    },
+    "Dial" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dial"
+          }
+        }
+      }
+    },
+    "Dial-Frequenz" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dial frequency"
+          }
+        }
+      }
+    },
+    "Dial-Frequenz (kHz)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dial frequency (kHz)"
+          }
+        }
+      }
+    },
+    "Dial-Frequenz kopieren" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy dial frequency"
+          }
+        }
+      }
+    },
+    "Dial-Frequenz und USB-D bitte von Hand am Funkgerät einstellen — automatisch geht das, sobald unter Einstellungen → Funkgerät ein Weg zum Gerät eingerichtet ist." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please set the dial frequency and USB-D on the rig by hand — this happens automatically once a route to the rig is set up under Settings → Rig."
+          }
+        }
+      }
+    },
+    "Die ALC hat bis 100 %% nicht angesprochen — erreicht wurden %@. Liegt das deutlich unter der Leistung, die am Gerät eingestellt ist, kommt zu wenig NF an: Dann ist der Eingangspegel im Funkgerät zu niedrig (bei Icom «USB MOD Level» unter MENU ▸ SET ▸ Connectors). Dort anheben, bis die Leistung stimmt, und erneut messen — der Regler hier bleibt so lange wirkungslos." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The ALC did not respond up to 100 %% — %@ was reached. If that is well below the power set on the rig, too little audio is arriving: the input level in the rig is too low (on Icom “USB MOD Level” under MENU ▸ SET ▸ Connectors). Raise it there until the power is right and measure again — until then the control here has no effect."
+          }
+        }
+      }
+    },
+    "Die Änderung gilt nach einem Neustart." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The change takes effect after a restart."
+          }
+        }
+      }
+    },
+    "Die Frequenz %@ kHz liess sich nicht per CI-V einstellen — bitte USB-Kabel, seriellen Port, Baudrate und CI-V-Adresse in den Einstellungen (Funkgerät) prüfen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The frequency %@ kHz could not be set via CI-V — please check the USB cable, serial port, baud rate and CI-V address in Settings (Rig)."
+          }
+        }
+      }
+    },
+    "Die Frequenz %@ kHz liess sich nicht über rigctld einstellen. %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Die Frequenz %1$@ kHz liess sich nicht über rigctld einstellen. %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The frequency %@ kHz could not be set through rigctld. %@"
+          }
+        }
+      }
+    },
+    "Die Gegenstelle unterstützt das B2F-Protokoll nicht." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The remote station does not support the B2F protocol."
+          }
+        }
+      }
+    },
+    "Die gespeicherten Sitzungsprotokolle öffnen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open the saved session logs"
+          }
+        }
+      }
+    },
+    "Die Karte zeigt den Punkt, sobald eine Position vorliegt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The map shows the point as soon as a position is available."
+          }
+        }
+      }
+    },
+    "Die Liste der RMS-Gateways kommt von den Winlink Web Services und wird höchstens einmal täglich abgerufen — Winlink verlangt sparsame Nutzung. Ohne Verbindung gilt der lokale Zwischenspeicher. Fenster: Ablage ▸ Gateways (⇧⌘G)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The list of RMS gateways comes from the Winlink Web Services and is fetched at most once a day — Winlink requires sparing use. Without a connection the local cache applies. Window: File ▸ Gateways (⇧⌘G)."
+          }
+        }
+      }
+    },
+    "Die Meldung geht als Nachricht an QTH in den Postausgang und erscheint nach dem Austausch auf winlink.org/userPositions." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The report goes to the outbox as a message to QTH and appears on winlink.org/userPositions after the exchange."
+          }
+        }
+      }
+    },
+    "Die Nachricht braucht einen Text." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The message needs a text."
+          }
+        }
+      }
+    },
+    "Die Nachricht wird endgültig entfernt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The message will be removed permanently."
+          }
+        }
+      }
+    },
+    "Die Suche umfasst alle Ordner." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The search covers all folders."
+          }
+        }
+      }
+    },
+    "Die Verbindung wurde unerwartet beendet. Bitte erneut versuchen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The connection was closed unexpectedly. Please try again."
+          }
+        }
+      }
+    },
+    "Die Verbindung zum Funkgerät ist nicht verfügbar." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The connection to the rig is not available."
+          }
+        }
+      }
+    },
+    "Diese Version enthält keinen Winlink-Zugangsschlüssel." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This version does not contain a Winlink access key."
+          }
+        }
+      }
+    },
+    "Diesen Ordner verwenden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use this folder"
+          }
+        }
+      }
+    },
+    "Direktverbindung (P2P)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direct connection (P2P)"
+          }
+        }
+      }
+    },
+    "Direktverbindung (P2P) …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direct connection (P2P) …"
+          }
+        }
+      }
+    },
+    "Distanz" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distance"
+          }
+        }
+      }
+    },
+    "Ein Neustart ist erst möglich, wenn Sitzung, Tune und Pegel-Assistent beendet sind." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A restart is only possible once the session, tune and level assistant have finished."
+          }
+        }
+      }
+    },
+    "Ein Ordner namens «%@» existiert hier bereits." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A folder named “%@” already exists here."
+          }
+        }
+      }
+    },
+    "Eine Winlink-Sitzung läuft — der Pegel-Assistent startet erst danach." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Winlink session is running — the Level Assistant starts only afterwards."
+          }
+        }
+      }
+    },
+    "Eine Winlink-Sitzung läuft — die Messung startet erst danach." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Winlink session is running — the measurement starts only afterwards."
+          }
+        }
+      }
+    },
+    "Eingang über Funk begrenzt auf %lld kB je Nachricht" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inbound over radio limited to %lld kB per message"
+          }
+        }
+      }
+    },
+    "Eingang: Nachrichten über %lld kB werden zurückgestellt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inbound: messages over %lld kB are deferred."
+          }
+        }
+      }
+    },
+    "Eingebaut" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Built-in"
+          }
+        }
+      }
+    },
+    "Einstellungen öffnen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Settings …"
+          }
+        }
+      }
+    },
+    "Empfang starten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start listening"
+          }
+        }
+      }
+    },
+    "Empfang über Funk" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listen over radio"
+          }
+        }
+      }
+    },
+    "Empfänger aus den Kontakten übernehmen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take recipients from contacts"
+          }
+        }
+      }
+    },
+    "Empfänger, Betreff und Text als Abfrage merken — fürs «Abfragen»-Menü" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remember recipient, subject and text as a query — for the “Queries” menu"
+          }
+        }
+      }
+    },
+    "Empfänger, Betreff und Text landen unter diesem Namen im «Abfragen»-Menü." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recipient, subject and text appear under this name in the “Queries” menu."
+          }
+        }
+      }
+    },
+    "Empfangsbereit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening"
+          }
+        }
+      }
+    },
+    "Empfangsbereit für %@ über %@ — warte auf Anruf …" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Empfangsbereit für %1$@ über %2$@ — warte auf Anruf …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening for %@ via %@ — waiting for a call …"
+          }
+        }
+      }
+    },
+    "Empfangsbereitschaft über %@ beendet: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Empfangsbereitschaft über %1$@ beendet: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening via %@ ended: %@"
+          }
+        }
+      }
+    },
+    "Empfehlung: %@ %%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommendation: %@ %%"
+          }
+        }
+      }
+    },
+    "Empfohlen: ein neuer Ordner «Skywave» in deinen Dokumenten. Du wählst ihn einmal aus, danach merkt sich die App die Freigabe. Vorhandene Daten werden automatisch übernommen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recommended: a new folder “Skywave” in your Documents. You choose it once, after that the app remembers the permission. Existing data is carried over automatically."
+          }
+        }
+      }
+    },
+    "Endgültig löschen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete permanently"
+          }
+        }
+      }
+    },
+    "Endgültig löschen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Permanently …"
+          }
+        }
+      }
+    },
+    "Entfernung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Distance"
+          }
+        }
+      }
+    },
+    "Enthaltene Nachrichten wandern in den Papierkorb, Unterordner werden entfernt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contained messages move to the trash, subfolders are removed."
+          }
+        }
+      }
+    },
+    "Entwurf bearbeiten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit draft"
+          }
+        }
+      }
+    },
+    "Entwurf weiterschreiben (⌘O)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue writing the draft (⌘O)"
+          }
+        }
+      }
+    },
+    "Entwürfe" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drafts"
+          }
+        }
+      }
+    },
+    "Erfolgreich" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Successful"
+          }
+        }
+      }
+    },
+    "Ergebnis" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Result"
+          }
+        }
+      }
+    },
+    "Erneut ermitteln" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Determine again"
+          }
+        }
+      }
+    },
+    "Erneut verbinden …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reconnect …"
+          }
+        }
+      }
+    },
+    "Erweitert: fremder rigctld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advanced: external rigctld"
+          }
+        }
+      }
+    },
+    "Erweitert: Icom CI-V direkt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Advanced: Icom CI-V direct"
+          }
+        }
+      }
+    },
+    "Extern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "External"
+          }
+        }
+      }
+    },
+    "Favorit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favourite"
+          }
+        }
+      }
+    },
+    "Favorit entfernen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remove favourite"
+          }
+        }
+      }
+    },
+    "Favoriten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favourites"
+          }
+        }
+      }
+    },
+    "Fehler" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        }
+      }
+    },
+    "Fehler: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error: %@"
+          }
+        }
+      }
+    },
+    "fehlgeschlagen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "failed"
+          }
+        }
+      }
+    },
+    "Fehlgeschlagen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed"
+          }
+        }
+      }
+    },
+    "Fertig. %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done. %@"
+          }
+        }
+      }
+    },
+    "FORCED besteht auf genau dieser Bandbreite; sonst gilt sie als Maximum. Modem-Host und Ports: Einstellungen → Modem." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "FORCED insists on exactly this bandwidth; otherwise it is the maximum. Modem host and ports: Settings → Modem."
+          }
+        }
+      }
+    },
+    "Frequenz bitte von Hand einstellen — automatisch geht das mit ARDOP, sobald unter Einstellungen → Funkgerät ein Weg zum Gerät eingerichtet ist." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please set the frequency by hand — this happens automatically with ARDOP once a route to the rig is set up under Settings → Rig."
+          }
+        }
+      }
+    },
+    "Frequenz und Modus (USB-D) werden vor dem Verbinden %@ eingestellt und bleiben danach stehen (umstellbar in Einstellungen → Funkgerät)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frequency and mode (USB-D) are set %@ before connecting and stay there afterwards (can be changed in Settings → Rig)."
+          }
+        }
+      }
+    },
+    "Frequenz und Modus (USB-D) werden vor dem Verbinden %@ eingestellt und nach der Sitzung wiederhergestellt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frequency and mode (USB-D) are set %@ before connecting and restored after the session."
+          }
+        }
+      }
+    },
+    "Frequenz und USB-D werden vorher %@ eingestellt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frequency and USB-D are set %@ beforehand."
+          }
+        }
+      }
+    },
+    "Frühestens wieder %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not before %@"
+          }
+        }
+      }
+    },
+    "Funk" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radio"
+          }
+        }
+      }
+    },
+    "Funkgerät" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rig"
+          }
+        }
+      }
+    },
+    "Funkgerät — öffnet den Bereich «Funkgerät»" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rig — opens the “Rig” section"
+          }
+        }
+      }
+    },
+    "Funkgerät nicht eingerichtet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rig not set up"
+          }
+        }
+      }
+    },
+    "Funkgerät nicht mehr verbunden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rig no longer connected"
+          }
+        }
+      }
+    },
+    "Funkgerät nicht verbunden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rig not connected"
+          }
+        }
+      }
+    },
+    "Funkgerät öffnen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open rig"
+          }
+        }
+      }
+    },
+    "Funkgerät trennen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disconnect rig"
+          }
+        }
+      }
+    },
+    "Funkgerät verbinden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect rig"
+          }
+        }
+      }
+    },
+    "Funkgerät: Fehler" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rig: error"
+          }
+        }
+      }
+    },
+    "Für dieses Setup kann die ALC nicht gelesen werden — der Assistent sendet den Ton, die ALC liest du am Gerät ab. Messen geht über rigctld oder, bei PTT über VOX, über CI-V; bei PTT über CI-V oder RTS hält ardopcf den seriellen Port, dann kommt Skywave nicht ans Gerät." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The ALC cannot be read for this setup — the assistant sends the tone and you read the ALC on the rig. Measuring works through rigctld or, with PTT over VOX, through CI-V; with PTT over CI-V or RTS ardopcf holds the serial port, so Skywave cannot reach the rig."
+          }
+        }
+      }
+    },
+    "Gateway" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gateway"
+          }
+        }
+      }
+    },
+    "Gateway-Liste täglich aktualisieren" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh gateway list daily"
+          }
+        }
+      }
+    },
+    "Gateway-Rufzeichen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gateway callsign"
+          }
+        }
+      }
+    },
+    "Gateway-Verzeichnis" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gateway directory"
+          }
+        }
+      }
+    },
+    "Gateway-Verzeichnis öffnen und einen Kanal wählen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open the gateway directory and pick a channel"
+          }
+        }
+      }
+    },
+    "Gateway-Verzeichnis zusätzlich als eigenes Fenster öffnen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Also open the gateway directory in its own window"
+          }
+        }
+      }
+    },
+    "Gateways" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gateways"
+          }
+        }
+      }
+    },
+    "Gebiet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Area"
+          }
+        }
+      }
+    },
+    "Gebiet unvollständig oder ungültig: Nord über Süd, Ost rechts von West, mindestens eine Stunde und ein Parameter." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Area incomplete or invalid: north above south, east to the right of west, at least one hour and one parameter."
+          }
+        }
+      }
+    },
+    "Gefunden: %@ %%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Found: %@ %%"
+          }
+        }
+      }
+    },
+    "Gegenstation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote station"
+          }
+        }
+      }
+    },
+    "Gegenstelle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote station"
+          }
+        }
+      }
+    },
+    "Geht beim nächsten Austausch mit — über Internet oder Funk." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Goes out with the next exchange — over the Internet or radio."
+          }
+        }
+      }
+    },
+    "Genauigkeit" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accuracy"
+          }
+        }
+      }
+    },
+    "Gerät" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Device"
+          }
+        }
+      }
+    },
+    "Gesamt %@ — %@ ARDOP 500 · %@ ARDOP 2000" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Gesamt %1$@ — %2$@ ARDOP 500 · %3$@ ARDOP 2000"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total %@ — %@ ARDOP 500 · %@ ARDOP 2000"
+          }
+        }
+      }
+    },
+    "Gesendet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sent"
+          }
+        }
+      }
+    },
+    "Gespeicherte Abfragen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved queries"
+          }
+        }
+      }
+    },
+    "Gespeicherte Abfragen verwalten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage saved queries"
+          }
+        }
+      }
+    },
+    "Gilt für ARDOP. VARA tastet den Sender selbst — CAT/PTT im VARA-Programm einstellen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Applies to ARDOP. VARA keys the transmitter itself — set up CAT/PTT in the VARA program."
+          }
+        }
+      }
+    },
+    "GRIB-Wetterdaten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GRIB weather data"
+          }
+        }
+      }
+    },
+    "GRIB-Wetterdaten (Saildocs) …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GRIB weather data (Saildocs) …"
+          }
+        }
+      }
+    },
+    "GRIB-Wetterdaten für den vorbereiteten Europa-Ausschnitt anfordern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request GRIB weather data for the prepared Europe area"
+          }
+        }
+      }
+    },
+    "Grobe Übertragungszeit der Anhänge, ohne Verbindungsaufbau" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rough transfer time of the attachments, without connection setup"
+          }
+        }
+      }
+    },
+    "Gross (~400 KB)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Large (~400 KB)"
+          }
+        }
+      }
+    },
+    "Grössenordnung %@ kB" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roughly %@ kB"
+          }
+        }
+      }
+    },
+    "Grössere Nachrichten werden über Funk zurückgestellt — das CMS bietet sie beim nächsten Austausch wieder an, zum Beispiel über Internet. Was im Postausgang über welchen Weg raus darf, legst du je Nachricht über «Versandweg» fest." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Larger messages are deferred over radio — the CMS offers them again at the next exchange, for example over the Internet. Which route each outbox message may take is set per message under “Route”."
+          }
+        }
+      }
+    },
+    "Grösste Nachricht" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Largest message"
+          }
+        }
+      }
+    },
+    "Gruppe: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Group: %@"
+          }
+        }
+      }
+    },
+    "Gruppen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Groups"
+          }
+        }
+      }
+    },
+    "HB9AK" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HB9AK"
+          }
+        }
+      }
+    },
+    "HB9XYZ" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HB9XYZ"
+          }
+        }
+      }
+    },
+    "HB9XYZ oder name@example.com" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HB9XYZ or name@example.com"
+          }
+        }
+      }
+    },
+    "Hersteller" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manufacturer"
+          }
+        }
+      }
+    },
+    "Hilfedatei mit allen verfügbaren Katalog-Items anfordern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request the help file with all available catalog items"
+          }
+        }
+      }
+    },
+    "Hinterlege zuerst Rufzeichen und Winlink-Passwort in den Einstellungen (⌘,)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First enter your callsign and Winlink password in Settings (⌘,)."
+          }
+        }
+      }
+    },
+    "Hinweis: Über eine Direktverbindung (P2P) geht nur Post, die ausschliesslich an das Rufzeichen der Gegenstation adressiert ist." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note: over a direct connection (P2P) only mail addressed exclusively to the remote station's callsign is transferred."
+          }
+        }
+      }
+    },
+    "Host" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Host"
+          }
+        }
+      }
+    },
+    "Im Fenster «Neue Nachricht» «Als Abfrage speichern» wählen oder hier mit «+» anlegen. Gespeicherte Abfragen erscheinen links in der Liste." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose “Save as query” in the “New Message” window or create one here with “+”. Saved queries appear in the list on the left."
+          }
+        }
+      }
+    },
+    "Im Finder zeigen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show in Finder"
+          }
+        }
+      }
+    },
+    "In den Einstellungen ändern …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change in Settings …"
+          }
+        }
+      }
+    },
+    "In den Papierkorb legen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move to trash"
+          }
+        }
+      }
+    },
+    "In eigenem Fenster öffnen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open in separate window"
+          }
+        }
+      }
+    },
+    "In Postausgang legen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move to outbox"
+          }
+        }
+      }
+    },
+    "INQUIRY oder query@saildocs.com" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "INQUIRY or query@saildocs.com"
+          }
+        }
+      }
+    },
+    "Integriert (ardopcf)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Integrated (ardopcf)"
+          }
+        }
+      }
+    },
+    "Internet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internet"
+          }
+        }
+      }
+    },
+    "Internet (CMS)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internet (CMS)"
+          }
+        }
+      }
+    },
+    "Intervall" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interval"
+          }
+        }
+      }
+    },
+    "Jeder Austausch schreibt sein Protokoll mit." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every exchange writes its own log."
+          }
+        }
+      }
+    },
+    "Jeder Austausch über Internet oder Funk erscheint hier mit seinem Ergebnis." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every exchange over the Internet or radio appears here with its result."
+          }
+        }
+      }
+    },
+    "Jetzt abrufen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fetch now"
+          }
+        }
+      }
+    },
+    "Jetzt neu starten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restart now"
+          }
+        }
+      }
+    },
+    "JN47PN" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JN47PN"
+          }
+        }
+      }
+    },
+    "Kanal" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Channel"
+          }
+        }
+      }
+    },
+    "Kanal-Bandbreite" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Channel bandwidth"
+          }
+        }
+      }
+    },
+    "Katalog" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catalog"
+          }
+        }
+      }
+    },
+    "Kein CAT" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No CAT"
+          }
+        }
+      }
+    },
+    "Kein CAT — Frequenz und Modus von Hand einstellen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No CAT — set frequency and mode by hand"
+          }
+        }
+      }
+    },
+    "Kein Datenordner gewählt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No data folder selected"
+          }
+        }
+      }
+    },
+    "Kein Eintrag passt zur Auswahl." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No entry matches the selection."
+          }
+        }
+      }
+    },
+    "Kein freier lokaler Port für rigctld gefunden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No free local port found for rigctld."
+          }
+        }
+      }
+    },
+    "Kein Gateway, kein Winlink-Passwort: die Gegenstation muss auf derselben Frequenz empfangsbereit sein." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No gateway, no Winlink password: the remote station must be listening on the same frequency."
+          }
+        }
+      }
+    },
+    "Kein gültiger Locator." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not a valid locator."
+          }
+        }
+      }
+    },
+    "Kein gültiger Maidenhead-Locator (4, 6 oder 8 Zeichen, z. B. JN47PN)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not a valid Maidenhead locator (4, 6 or 8 characters, e.g. JN47PN)"
+          }
+        }
+      }
+    },
+    "Kein Kontakt ausgewählt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No contact selected"
+          }
+        }
+      }
+    },
+    "Kein Kontakt passt zur Suche." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No contact matches the search."
+          }
+        }
+      }
+    },
+    "Kein Locator gesetzt (Einstellungen → Allgemein)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No locator set (Settings → General)."
+          }
+        }
+      }
+    },
+    "Kein Locator hinterlegt — Einstellungen (⌘,) → Allgemein." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No locator set — Settings (⌘,) → General."
+          }
+        }
+      }
+    },
+    "Kein Protokoll ausgewählt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No log selected"
+          }
+        }
+      }
+    },
+    "Kein Standort: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No location: %@"
+          }
+        }
+      }
+    },
+    "Keine (VOX)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None (VOX)"
+          }
+        }
+      }
+    },
+    "Keine Abfragen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No queries"
+          }
+        }
+      }
+    },
+    "Keine Entwürfe" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No drafts"
+          }
+        }
+      }
+    },
+    "Keine Kontakte" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No contacts"
+          }
+        }
+      }
+    },
+    "Keine Nachricht ausschliesslich an %@ im Postausgang — es wird nur abgeholt, was %@ für dich hat." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Keine Nachricht ausschliesslich an %1$@ im Postausgang — es wird nur abgeholt, was %2$@ für dich hat."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No message addressed exclusively to %@ in the outbox — only what %@ has for you will be collected."
+          }
+        }
+      }
+    },
+    "Keine Nachrichten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No messages"
+          }
+        }
+      }
+    },
+    "Keine neuen Nachrichten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No new messages"
+          }
+        }
+      }
+    },
+    "Keine Position" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No position"
+          }
+        }
+      }
+    },
+    "Keine Signatur" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No signature"
+          }
+        }
+      }
+    },
+    "Keine Treffer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No results"
+          }
+        }
+      }
+    },
+    "Keine Treffer für «%@»" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No results for “%@”"
+          }
+        }
+      }
+    },
+    "Keine Verbindung zu %@ — die Gegenstelle antwortet nicht oder der Kanal ist belegt. Frequenz, Bandbreite und Rufzeichen prüfen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No connection to %@ — the remote station does not answer or the channel is busy. Check frequency, bandwidth and callsign."
+          }
+        }
+      }
+    },
+    "Keine Verbindung zu rigctld (%@:%@) — ohne PTT würde nichts gesendet. Läuft rigctld? In den Einstellungen (Funk) den Host leeren, um PTT über rigctld zu deaktivieren." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Keine Verbindung zu rigctld (%1$@:%2$@) — ohne PTT würde nichts gesendet. Läuft rigctld? In den Einstellungen (Funk) den Host leeren, um PTT über rigctld zu deaktivieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No connection to rigctld (%@:%@) — without PTT nothing would be transmitted. Is rigctld running? Clear the host in Settings (Radio) to disable PTT through rigctld."
+          }
+        }
+      }
+    },
+    "Keine Verbindung zu rigctld an %@:%@ — läuft er?" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Keine Verbindung zu rigctld an %1$@:%2$@ — läuft er?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No connection to rigctld at %@:%@ — is it running?"
+          }
+        }
+      }
+    },
+    "Keine Verbindung zum %@-Modem (%@:%@). Läuft das %@-Programm? Host und Port lassen sich in den Einstellungen (Funk) anpassen." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Keine Verbindung zum %1$@-Modem (%2$@:%3$@). Läuft das %4$@-Programm? Host und Port lassen sich in den Einstellungen (Funk) anpassen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No connection to the %@ modem (%@:%@). Is the %@ program running? Host and port can be changed in Settings (Radio)."
+          }
+        }
+      }
+    },
+    "Keine Verbindung zum CMS (%@): %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Keine Verbindung zum CMS (%1$@): %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No connection to the CMS (%@): %@"
+          }
+        }
+      }
+    },
+    "kHz" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kHz"
+          }
+        }
+      }
+    },
+    "Klein (~50 KB)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Small (~50 KB)"
+          }
+        }
+      }
+    },
+    "Klick: mit dem Winlink-CMS über Internet austauschen (⇧⌘R). Pfeil: über Funk (VARA/ARDOP) oder direkt zu einer Station (P2P)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Click: exchange with the Winlink CMS over the Internet (⇧⌘R). Arrow: over radio (VARA/ARDOP) or directly to a station (P2P)."
+          }
+        }
+      }
+    },
+    "Kommentar" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comment"
+          }
+        }
+      }
+    },
+    "Kontakt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact"
+          }
+        }
+      }
+    },
+    "Kontakt «%@» löschen?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete contact “%@”?"
+          }
+        }
+      }
+    },
+    "Kontakt löschen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete contact"
+          }
+        }
+      }
+    },
+    "Kontakte" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacts"
+          }
+        }
+      }
+    },
+    "Kontakte durchsuchen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search contacts"
+          }
+        }
+      }
+    },
+    "Kopieren" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy"
+          }
+        }
+      }
+    },
+    "Länge (Dezimalgrad)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Longitude (decimal degrees)"
+          }
+        }
+      }
+    },
+    "Lege mit «+» eine Signatur an. Die Standard-Signatur wird in jede neue Nachricht eingefügt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create a signature with “+”. The default signature is inserted into every new message."
+          }
+        }
+      }
+    },
+    "Lege mit «+» einen Kontakt an." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create a contact with “+”."
+          }
+        }
+      }
+    },
+    "Leistung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Power"
+          }
+        }
+      }
+    },
+    "Lese Frequenz …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading frequency …"
+          }
+        }
+      }
+    },
+    "Letzte Verbindungen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recent connections"
+          }
+        }
+      }
+    },
+    "Letzter Abgleich fehlgeschlagen: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last refresh failed: %@"
+          }
+        }
+      }
+    },
+    "Letzter Abruf: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last fetch: %@"
+          }
+        }
+      }
+    },
+    "Letzter Austausch" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last exchange"
+          }
+        }
+      }
+    },
+    "Letzter Erfolg" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last success"
+          }
+        }
+      }
+    },
+    "Liste bei Winlink neu abrufen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fetch the list from Winlink again"
+          }
+        }
+      }
+    },
+    "localhost" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "localhost"
+          }
+        }
+      }
+    },
+    "Locator" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locator"
+          }
+        }
+      }
+    },
+    "Locator unvollständig" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Locator incomplete"
+          }
+        }
+      }
+    },
+    "Löschen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "Manuell" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manual"
+          }
+        }
+      }
+    },
+    "Max. Bandbreite" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Max. bandwidth"
+          }
+        }
+      }
+    },
+    "Mehrere Gruppen mit Komma trennen; sie erscheinen links in der Seitenleiste." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Separate several groups with commas; they appear in the sidebar on the left."
+          }
+        }
+      }
+    },
+    "Messung starten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start measurement"
+          }
+        }
+      }
+    },
+    "Messungen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Measurements"
+          }
+        }
+      }
+    },
+    "MID:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MID:"
+          }
+        }
+      }
+    },
+    "Mit dem Winlink-CMS über Internet austauschen (⇧⌘R)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exchange with the Winlink CMS over the Internet (⇧⌘R)"
+          }
+        }
+      }
+    },
+    "Mittel (~150 KB)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medium (~150 KB)"
+          }
+        }
+      }
+    },
+    "Mittelpunkt von %@, Zelle ca. %@ × %@ km" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Mittelpunkt von %1$@, Zelle ca. %2$@ × %3$@ km"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Centre of %@, cell approx. %@ × %@ km"
+          }
+        }
+      }
+    },
+    "Modell" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model"
+          }
+        }
+      }
+    },
+    "Modem" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modem"
+          }
+        }
+      }
+    },
+    "Modem startet …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modem starting …"
+          }
+        }
+      }
+    },
+    "Modem-Host und Ports: Einstellungen → Modem." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modem host and ports: Settings → Modem."
+          }
+        }
+      }
+    },
+    "Modem: VARA %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modem: VARA %@"
+          }
+        }
+      }
+    },
+    "Nach einer Sitzung weiter empfangsbereit bleiben" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep listening after a session"
+          }
+        }
+      }
+    },
+    "Nach Updates suchen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for Updates …"
+          }
+        }
+      }
+    },
+    "Nachricht" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message"
+          }
+        }
+      }
+    },
+    "Nachricht «%@» endgültig löschen?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete message “%@” permanently?"
+          }
+        }
+      }
+    },
+    "Nachricht in den Postausgang legen (⌘⏎)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move message to the outbox (⌘⏎)"
+          }
+        }
+      }
+    },
+    "Nachricht in einen anderen Ordner verschieben" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move message to another folder"
+          }
+        }
+      }
+    },
+    "Nachricht kann nicht gelesen werden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message cannot be read"
+          }
+        }
+      }
+    },
+    "Nachricht kann nicht gespeichert werden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message cannot be saved"
+          }
+        }
+      }
+    },
+    "Nachricht samt Anhängen weiterleiten (⇧⌘F)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forward message with attachments (⇧⌘F)"
+          }
+        }
+      }
+    },
+    "Nachricht unter «Entwürfe» ablegen und später weiterschreiben (⌘S)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Store message under “Drafts” and continue writing later (⌘S)"
+          }
+        }
+      }
+    },
+    "Nachrichten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messages"
+          }
+        }
+      }
+    },
+    "Nachrichten, Adressbuch und Einstellungen als normale Dateien" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messages, address book and settings as ordinary files"
+          }
+        }
+      }
+    },
+    "Nachrichten, Adressbuch, Signaturen und Einstellungen liegen als normale Dateien in diesem Ordner. Beim Wechsel werden die Daten in den neuen Ordner kopiert; der bisherige bleibt als Kopie erhalten." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Messages, address book, signatures and settings are stored as ordinary files in this folder. When you change it, the data is copied to the new folder; the previous one remains as a copy."
+          }
+        }
+      }
+    },
+    "Nächster Auto-Abruf: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next automatic fetch: %@"
+          }
+        }
+      }
+    },
+    "Name" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        }
+      }
+    },
+    "name@example.com" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "name@example.com"
+          }
+        }
+      }
+    },
+    "Neue Abfrage anlegen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create new query"
+          }
+        }
+      }
+    },
+    "Neue Nachricht" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Message"
+          }
+        }
+      }
+    },
+    "Neue Nachricht verfassen (⌘N)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compose new message (⌘N)"
+          }
+        }
+      }
+    },
+    "Neue Signatur anlegen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create new signature"
+          }
+        }
+      }
+    },
+    "Neuen Kontakt anlegen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Create new contact"
+          }
+        }
+      }
+    },
+    "Neuer Kontakt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New contact"
+          }
+        }
+      }
+    },
+    "Neuer Ordner …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Folder …"
+          }
+        }
+      }
+    },
+    "Neuer Ordner in «%@»" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New folder in “%@”"
+          }
+        }
+      }
+    },
+    "Nicht eingerichtet — Einstellungen → Funkgerät" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not set up — Settings → Rig"
+          }
+        }
+      }
+    },
+    "Nicht geprüft" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not tested"
+          }
+        }
+      }
+    },
+    "nicht verbunden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "not connected"
+          }
+        }
+      }
+    },
+    "Nicht verbunden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not connected"
+          }
+        }
+      }
+    },
+    "Nicht verbunden — wird beim Verbinden aufgebaut" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not connected — established when connecting"
+          }
+        }
+      }
+    },
+    "Nichts zu senden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing to send"
+          }
+        }
+      }
+    },
+    "Nichts zu senden — nur Abruf." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing to send — fetch only."
+          }
+        }
+      }
+    },
+    "Noch kein Abruf in dieser Sitzung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No fetch in this session yet"
+          }
+        }
+      }
+    },
+    "Noch kein erfolgreicher Austausch" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No successful exchange yet"
+          }
+        }
+      }
+    },
+    "Noch kein Standort ermittelt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No location determined yet."
+          }
+        }
+      }
+    },
+    "Noch keine gespeicherten Abfragen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No saved queries yet."
+          }
+        }
+      }
+    },
+    "Noch keine Liste abgerufen — es wird die eingebaute Starterliste gezeigt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No list fetched yet — the built-in starter list is shown."
+          }
+        }
+      }
+    },
+    "Noch keine Protokolle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No logs yet"
+          }
+        }
+      }
+    },
+    "Noch keine Verbindungen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No connections yet"
+          }
+        }
+      }
+    },
+    "Noch nicht eingerichtet — Modell und Anschluss in den Einstellungen wählen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not set up yet — choose model and connection in Settings."
+          }
+        }
+      }
+    },
+    "Noch nichts gesendet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing sent yet"
+          }
+        }
+      }
+    },
+    "Noch nie abgerufen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Never fetched"
+          }
+        }
+      }
+    },
+    "Nord (°)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "North (°)"
+          }
+        }
+      }
+    },
+    "Nord und Ost positiv, Süd und West negativ. Komma oder Punkt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "North and east positive, south and west negative. Comma or point."
+          }
+        }
+      }
+    },
+    "Notfunk, USKA" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Emcomm, USKA"
+          }
+        }
+      }
+    },
+    "Notizen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        }
+      }
+    },
+    "Nur Favoriten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favourites only"
+          }
+        }
+      }
+    },
+    "Nur Funk" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radio only"
+          }
+        }
+      }
+    },
+    "Nur Internet" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Internet only"
+          }
+        }
+      }
+    },
+    "Öffnet den Verbindungsdialog mit dem gewählten Gateway" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens the connection dialog with the selected gateway"
+          }
+        }
+      }
+    },
+    "Ohne CAT stellt Skywave die Frequenz nicht ein und zeigt sie nicht an." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Without CAT Skywave neither sets nor shows the frequency."
+          }
+        }
+      }
+    },
+    "Ohne gültigen Locator wird die Gateway-Liste nicht aktualisiert — sie braucht ihn, um die Entfernung zu berechnen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Without a valid locator the gateway list is not refreshed — it needs it to calculate the distance."
+          }
+        }
+      }
+    },
+    "Ohne Internet bleibt die Karte leer; die Koordinaten oben gelten trotzdem." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Without Internet the map stays empty; the coordinates above still apply."
+          }
+        }
+      }
+    },
+    "OK" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        }
+      }
+    },
+    "optional, z. B. 3'587,0" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "optional, e.g. 3587.0"
+          }
+        }
+      }
+    },
+    "Ordner" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folder"
+          }
+        }
+      }
+    },
+    "Ordner «%@» löschen?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete folder “%@”?"
+          }
+        }
+      }
+    },
+    "Ordner «%@» umbenennen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename folder “%@”"
+          }
+        }
+      }
+    },
+    "Ordner ändern …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change folder …"
+          }
+        }
+      }
+    },
+    "Ordner für die Skywave-Daten wählen — z. B. einen neuen Ordner «Skywave» in deinen Dokumenten (unten links «Neuer Ordner»)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose a folder for the Skywave data — e.g. a new folder “Skywave” in your Documents (“New Folder” at the bottom left)."
+          }
+        }
+      }
+    },
+    "Ordner ist leer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folder is empty"
+          }
+        }
+      }
+    },
+    "Ordner löschen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete folder"
+          }
+        }
+      }
+    },
+    "Ordner löschen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Folder …"
+          }
+        }
+      }
+    },
+    "Ordner umbenennen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename Folder …"
+          }
+        }
+      }
+    },
+    "Ordner wählen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose folder …"
+          }
+        }
+      }
+    },
+    "Ordner-Aktion fehlgeschlagen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folder action failed"
+          }
+        }
+      }
+    },
+    "Original" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original"
+          }
+        }
+      }
+    },
+    "Original %@ → %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Original %1$@ → %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original %@ → %@"
+          }
+        }
+      }
+    },
+    "Ost (°)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "East (°)"
+          }
+        }
+      }
+    },
+    "Papierkorb" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trash"
+          }
+        }
+      }
+    },
+    "Papierkorb ist leer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trash is empty"
+          }
+        }
+      }
+    },
+    "Papierkorb leeren" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty trash"
+          }
+        }
+      }
+    },
+    "Papierkorb leeren …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty Trash …"
+          }
+        }
+      }
+    },
+    "Papierkorb leeren?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty trash?"
+          }
+        }
+      }
+    },
+    "Parameter" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parameters"
+          }
+        }
+      }
+    },
+    "Passwort" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Password"
+          }
+        }
+      }
+    },
+    "Pegel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Level"
+          }
+        }
+      }
+    },
+    "Pegel %@ %%: ALC %@, %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Pegel %1$@ %%: ALC %2$@, %3$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Level %@ %%: ALC %@, %@"
+          }
+        }
+      }
+    },
+    "Pegel-Assistent …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Level Assistant …"
+          }
+        }
+      }
+    },
+    "Pegel-Assistent oder Tune läuft bereits — bitte zuerst beenden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Level Assistant or Tune is already running — please stop it first."
+          }
+        }
+      }
+    },
+    "Pegel-Assistent oder Tune läuft noch — bitte zuerst dort beenden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Level Assistant or Tune is still running — please stop it there first."
+          }
+        }
+      }
+    },
+    "Peilung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bearing"
+          }
+        }
+      }
+    },
+    "per CI-V" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "via CI-V"
+          }
+        }
+      }
+    },
+    "Port" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Port"
+          }
+        }
+      }
+    },
+    "Position" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Position"
+          }
+        }
+      }
+    },
+    "Positionsmeldung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Position report"
+          }
+        }
+      }
+    },
+    "Positionsmeldung nicht möglich" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Position report not possible"
+          }
+        }
+      }
+    },
+    "Postausgang" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Outbox"
+          }
+        }
+      }
+    },
+    "Postausgang leer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Outbox empty"
+          }
+        }
+      }
+    },
+    "Postausgang öffnen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open outbox"
+          }
+        }
+      }
+    },
+    "Posteingang" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inbox"
+          }
+        }
+      }
+    },
+    "Postfach" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mailbox"
+          }
+        }
+      }
+    },
+    "Privat" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Private"
+          }
+        }
+      }
+    },
+    "Protokoll" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log"
+          }
+        }
+      }
+    },
+    "Protokoll der Sitzung (⇧⌘L)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Session log (⇧⌘L)"
+          }
+        }
+      }
+    },
+    "Protokoll der Sitzung anzeigen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show session log"
+          }
+        }
+      }
+    },
+    "Protokoll nicht lesbar." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log cannot be read."
+          }
+        }
+      }
+    },
+    "Protokoll: WinlinkKit %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protocol: WinlinkKit %@"
+          }
+        }
+      }
+    },
+    "Protokolle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Logs"
+          }
+        }
+      }
+    },
+    "Protokolle anzeigen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show logs"
+          }
+        }
+      }
+    },
+    "Protokollfehler: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protocol error: %@"
+          }
+        }
+      }
+    },
+    "PTT" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PTT"
+          }
+        }
+      }
+    },
+    "PTT über %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PTT via %@"
+          }
+        }
+      }
+    },
+    "PTT-Fehler: rigctld konnte den Sender nicht enttasten — bitte SOFORT prüfen, ob das Funkgerät noch sendet! Die Sitzung wurde abgebrochen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PTT error: rigctld could not unkey the transmitter — check IMMEDIATELY whether the rig is still transmitting! The session was aborted."
+          }
+        }
+      }
+    },
+    "PTT-Fehler: rigctld konnte den Sender nicht tasten — ohne PTT wird nichts gesendet, die Sitzung wurde abgebrochen. Läuft rigctld noch?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PTT error: rigctld could not key the transmitter — without PTT nothing is transmitted, the session was aborted. Is rigctld still running?"
+          }
+        }
+      }
+    },
+    "PTT, serieller Port und QSY stehen im Tab «Funkgerät»." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PTT, serial port and QSY are in the “Rig” tab."
+          }
+        }
+      }
+    },
+    "QRG %@ kHz (%@) → %@ kHz (USB-D) — %@." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "QRG %1$@ kHz (%2$@) → %3$@ kHz (USB-D) — %4$@."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QRG %@ kHz (%@) → %@ kHz (USB-D) — %@."
+          }
+        }
+      }
+    },
+    "QRG bitte von Hand einstellen: %@ kHz Dial, USB-D." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please set the QRG by hand: %@ kHz dial, USB-D."
+          }
+        }
+      }
+    },
+    "QRG nach der Sitzung zurückstellen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore QRG after the session"
+          }
+        }
+      }
+    },
+    "QRV, alles OK" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QRV, all OK"
+          }
+        }
+      }
+    },
+    "QSY" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QSY"
+          }
+        }
+      }
+    },
+    "QTH / Ort" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "QTH / location"
+          }
+        }
+      }
+    },
+    "Quelle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source"
+          }
+        }
+      }
+    },
+    "Rate" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rate"
+          }
+        }
+      }
+    },
+    "René Muster" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "René Muster"
+          }
+        }
+      }
+    },
+    "REQUEST" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "REQUEST"
+          }
+        }
+      }
+    },
+    "rigctld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rigctld"
+          }
+        }
+      }
+    },
+    "rigctld konnte das Funkgerät%@ nicht öffnen — Modell, Port und Baudrate prüfen; hält ein anderes Programm den Port?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rigctld could not open the rig%@ — check model, port and baud rate; is another program holding the port?"
+          }
+        }
+      }
+    },
+    "rigctld meldet sich nicht%@ — bitte erneut versuchen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rigctld does not respond%@ — please try again."
+          }
+        }
+      }
+    },
+    "rigctld: PTT aus fehlgeschlagen: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rigctld: PTT off failed: %@"
+          }
+        }
+      }
+    },
+    "rigctld: PTT ein fehlgeschlagen: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "rigctld: PTT on failed: %@"
+          }
+        }
+      }
+    },
+    "RTS (serieller Port)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RTS (serial port)"
+          }
+        }
+      }
+    },
+    "RTS tastet mit dem integrierten ardopcf nicht: die App-Sandbox blockiert die Steuerleitung." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RTS does not key with the integrated ardopcf: the app sandbox blocks the control line."
+          }
+        }
+      }
+    },
+    "RTS tastet mit dem integrierten ardopcf nicht: die App-Sandbox blockiert die Steuerleitung. Bitte über CAT oder VOX tasten." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "RTS does not key with the integrated ardopcf: the app sandbox blocks the control line. Please key via CAT or VOX."
+          }
+        }
+      }
+    },
+    "Rufe %@ — über Funk kann das dauern …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calling %@ — over radio this can take a while …"
+          }
+        }
+      }
+    },
+    "Rufen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Call"
+          }
+        }
+      }
+    },
+    "Ruft im Hintergrund über Telnet (Internet) ab und meldet neue Nachrichten als Mitteilung. Funkverbindungen startet der Auto-Abruf nie." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fetches in the background over telnet (Internet) and announces new messages as a notification. The automatic fetch never starts radio connections."
+          }
+        }
+      }
+    },
+    "Rufzeichen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Callsign"
+          }
+        }
+      }
+    },
+    "Rufzeichen aus den Kontakten übernehmen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take callsign from contacts"
+          }
+        }
+      }
+    },
+    "Rufzeichen eingeben, um die passende Post zu sehen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a callsign to see the matching mail."
+          }
+        }
+      }
+    },
+    "Rufzeichen oder Locator" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Callsign or locator"
+          }
+        }
+      }
+    },
+    "Saildocs liefert eine Webseite als Text-Mail zurück — URL im Text ergänzen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saildocs returns a web page as a text mail — add the URL in the text"
+          }
+        }
+      }
+    },
+    "Schliessen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        }
+      }
+    },
+    "Seitenleiste ein-/ausblenden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show/Hide Sidebar"
+          }
+        }
+      }
+    },
+    "Senden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transmit"
+          }
+        }
+      }
+    },
+    "Sendepegel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drive level"
+          }
+        }
+      }
+    },
+    "Sendepegel %lld %%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drive level %lld %%"
+          }
+        }
+      }
+    },
+    "Sendepegel des ARDOP-Modems — so einstellen, dass die ALC am Gerät gerade eben anspricht. Gilt sofort und für die nächste Sitzung." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drive level of the ARDOP modem — set it so that the ALC on the rig only just responds. Applies immediately and to the next session."
+          }
+        }
+      }
+    },
+    "Sendepegel einstellen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set drive level"
+          }
+        }
+      }
+    },
+    "SENDET" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TRANSMITTING"
+          }
+        }
+      }
+    },
+    "Sendet bei %@ %% …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transmitting at %@ %% …"
+          }
+        }
+      }
+    },
+    "Sendet einen Zweiton und stellt den Pegel gegen die ALC des Geräts ein" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transmits a two-tone signal and sets the level against the rig's ALC"
+          }
+        }
+      }
+    },
+    "Serieller Port" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Serial port"
+          }
+        }
+      }
+    },
+    "Signatur" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signature"
+          }
+        }
+      }
+    },
+    "Signatur %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signature %lld"
+          }
+        }
+      }
+    },
+    "Signatur ans Ende der Nachricht setzen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Append signature to the end of the message"
+          }
+        }
+      }
+    },
+    "Signatur löschen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete signature"
+          }
+        }
+      }
+    },
+    "Signaturen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signatures"
+          }
+        }
+      }
+    },
+    "Sitzung abbrechen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abort Session"
+          }
+        }
+      }
+    },
+    "Sitzung abbrechen (⌘.)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abort session (⌘.)"
+          }
+        }
+      }
+    },
+    "Skaliert die NF, die ans Funkgerät geht. Zu viel übersteuert den Modulator und kostet Verbindungen — im Datenbetrieb (USB-D) fehlt die Mikrofonkette, die das sonst abfängt. Richtwert: so weit herunter, dass die ALC-Anzeige am Gerät gerade eben anspricht." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scales the audio going to the rig. Too much overdrives the modulator and costs connections — in data mode (USB-D) the microphone chain that would otherwise catch it is missing. Rule of thumb: lower it until the ALC meter on the rig only just responds."
+          }
+        }
+      }
+    },
+    "Skywave" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skywave"
+          }
+        }
+      }
+    },
+    "Skywave braucht Zugriff auf das Mikrofon (Audio-Eingang), um das Funksignal zu empfangen. Bitte in Systemeinstellungen → Datenschutz & Sicherheit → Mikrofon für Skywave erlauben." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skywave needs access to the microphone (audio input) to receive the radio signal. Please allow it for Skywave in System Settings → Privacy & Security → Microphone."
+          }
+        }
+      }
+    },
+    "Skywave dockt an einen rigctld an, den du oder ein anderes Programm gestartet hat." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skywave attaches to a rigctld that you or another program has started."
+          }
+        }
+      }
+    },
+    "Skywave öffnen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Skywave"
+          }
+        }
+      }
+    },
+    "Skywave spricht nicht mit dem Funkgerät. Frequenz und Modus stellst du von Hand ein." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skywave does not talk to the rig. You set frequency and mode by hand."
+          }
+        }
+      }
+    },
+    "Skywave startet das mitgelieferte ardopcf-Modem selbst — es braucht nur das USB-Kabel zum Funkgerät (IC-7610: eine USB-Verbindung liefert Audio und CI-V, Standard-Adresse 98). Beim ersten Verbinden fragt macOS nach der Mikrofon-Freigabe." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skywave starts the bundled ardopcf modem itself — all it needs is the USB cable to the rig (IC-7610: one USB connection carries audio and CI-V, default address 98). On the first connection macOS asks for microphone access."
+          }
+        }
+      }
+    },
+    "Skywave startet den mitgelieferten rigctld (Hamlib) und hält die Verbindung zum Gerät. Andere Programme dürfen den seriellen Port dann nicht belegen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skywave starts the bundled rigctld (Hamlib) and holds the connection to the rig. Other programs must not occupy the serial port then."
+          }
+        }
+      }
+    },
+    "Skywave wartet, bis eine Station %@ ruft, und tauscht dann direkt aus. Abbrechen in der Statuszeile beendet das Warten." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skywave waits until a station calls %@ and then exchanges directly. Cancel in the status bar ends the wait."
+          }
+        }
+      }
+    },
+    "So läuft es ab" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How it works"
+          }
+        }
+      }
+    },
+    "Speichern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "Speicherort" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Storage location"
+          }
+        }
+      }
+    },
+    "Sprache" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        }
+      }
+    },
+    "Standard" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Default"
+          }
+        }
+      }
+    },
+    "Standard ist %@ (Produktion). Zum Testen ohne echte Zustellung: %@ — Achtung, das ist ein isolierter Testserver. Er nimmt Nachrichten an, stellt sie aber nicht zu." : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Standard ist %1$@ (Produktion). Zum Testen ohne echte Zustellung: %2$@ — Achtung, das ist ein isolierter Testserver. Er nimmt Nachrichten an, stellt sie aber nicht zu."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The default is %@ (production). For testing without real delivery: %@ — note that this is an isolated test server. It accepts messages but does not deliver them."
+          }
+        }
+      }
+    },
+    "Standort" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location"
+          }
+        }
+      }
+    },
+    "Standort ermitteln" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Determine location"
+          }
+        }
+      }
+    },
+    "Standortdienst" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location service"
+          }
+        }
+      }
+    },
+    "Standortdienst (WLAN/IP-Ortung), %@%@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Standortdienst (WLAN/IP-Ortung), %1$@%2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location service (Wi-Fi/IP positioning), %@%@"
+          }
+        }
+      }
+    },
+    "Standortdienst lieferte keinen gültigen Fix — bitte erneut versuchen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The location service returned no valid fix — please try again."
+          }
+        }
+      }
+    },
+    "Standortfreigabe abgelehnt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location access denied."
+          }
+        }
+      }
+    },
+    "Standortfreigabe für Skywave fehlt — Systemeinstellungen → Datenschutz → Ortungsdienste." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location access for Skywave is missing — System Settings → Privacy → Location Services."
+          }
+        }
+      }
+    },
+    "Standortquelle" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location source"
+          }
+        }
+      }
+    },
+    "Starte integriertes ardopcf-Modem …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting integrated ardopcf modem …"
+          }
+        }
+      }
+    },
+    "Starte Modem …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting modem …"
+          }
+        }
+      }
+    },
+    "Startet den Zweiton — der Sender wird getastet." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starts the two-tone signal — the transmitter is keyed."
+          }
+        }
+      }
+    },
+    "Station" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Station"
+          }
+        }
+      }
+    },
+    "Station rufen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Call station"
+          }
+        }
+      }
+    },
+    "Status" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Status"
+          }
+        }
+      }
+    },
+    "Status in der Menüleiste anzeigen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show status in the menu bar"
+          }
+        }
+      }
+    },
+    "Stelle %@ kHz Dial, USB-D per CI-V ein …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setting %@ kHz dial, USB-D via CI-V …"
+          }
+        }
+      }
+    },
+    "Stelle %@ kHz Dial, USB-D über rigctld ein …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Setting %@ kHz dial, USB-D through rigctld …"
+          }
+        }
+      }
+    },
+    "Stelle QRG %@ kHz (%@) wieder her …" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Stelle QRG %1$@ kHz (%2$@) wieder her …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restoring QRG %@ kHz (%@) …"
+          }
+        }
+      }
+    },
+    "Steuerung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control"
+          }
+        }
+      }
+    },
+    "Stündlich" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hourly"
+          }
+        }
+      }
+    },
+    "Suchen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search"
+          }
+        }
+      }
+    },
+    "Suchradius" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search radius"
+          }
+        }
+      }
+    },
+    "Süd (°)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "South (°)"
+          }
+        }
+      }
+    },
+    "Systemstandard" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System default"
+          }
+        }
+      }
+    },
+    "Text der Anfrage: ein Katalog-Item je Zeile, oder «send …»-Zeilen für Saildocs." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Text of the request: one catalog item per line, or “send …” lines for Saildocs."
+          }
+        }
+      }
+    },
+    "TNC" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TNC"
+          }
+        }
+      }
+    },
+    "TNC: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "TNC: %@"
+          }
+        }
+      }
+    },
+    "Transport" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transport"
+          }
+        }
+      }
+    },
+    "Trennen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disconnect"
+          }
+        }
+      }
+    },
+    "Tune" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune"
+          }
+        }
+      }
+    },
+    "Tune aus" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune off"
+          }
+        }
+      }
+    },
+    "Tune beendet." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune finished."
+          }
+        }
+      }
+    },
+    "Tune läuft im Hauptfenster — zuerst dort beenden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune is running in the main window — stop it there first."
+          }
+        }
+      }
+    },
+    "Tune liess sich nicht starten: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune could not be started: %@"
+          }
+        }
+      }
+    },
+    "Tune tastet den Sender für höchstens 15 s mit einem Zweiton — nur auf freier Frequenz oder in die Kunstlast. Der Assistent stellt den Pegel anhand von ALC und Leistung ein." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune keys the transmitter with a two-tone signal for at most 15 s — only on a clear frequency or into a dummy load. The assistant sets the level based on ALC and power."
+          }
+        }
+      }
+    },
+    "Tune und Pegel-Assistent brauchen das integrierte ardopcf (Einstellungen → Modem)." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune and the Level Assistant need the integrated ardopcf (Settings → Modem)."
+          }
+        }
+      }
+    },
+    "Tune und Pegel-Assistent stehen im Hauptfenster unter Funk → Funkgerät." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune and the Level Assistant are in the main window under Radio → Rig."
+          }
+        }
+      }
+    },
+    "Tune: Zeitlimit erreicht." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune: time limit reached."
+          }
+        }
+      }
+    },
+    "Tune: Zweiton, Pegel %lld %%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tune: two-tone, level %lld %%"
+          }
+        }
+      }
+    },
+    "über %@ …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "via %@ …"
+          }
+        }
+      }
+    },
+    "Über CAT" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Via CAT"
+          }
+        }
+      }
+    },
+    "Über Funk verbinden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect over radio"
+          }
+        }
+      }
+    },
+    "über Internet (CMS)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "via Internet (CMS)"
+          }
+        }
+      }
+    },
+    "über rigctld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "through rigctld"
+          }
+        }
+      }
+    },
+    "Über Skywave (mitgelieferter rigctld)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Via Skywave (bundled rigctld)"
+          }
+        }
+      }
+    },
+    "Übersicht" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overview"
+          }
+        }
+      }
+    },
+    "UKW" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VHF"
+          }
+        }
+      }
+    },
+    "Um meinen Locator (±4°)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Around my locator (±4°)"
+          }
+        }
+      }
+    },
+    "Umbenennen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename"
+          }
+        }
+      }
+    },
+    "Umbenennen …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rename …"
+          }
+        }
+      }
+    },
+    "Unbegrenzt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlimited"
+          }
+        }
+      }
+    },
+    "unbekannt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unknown"
+          }
+        }
+      }
+    },
+    "Ungültige ARDOP-Bandbreite: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid ARDOP bandwidth: %@"
+          }
+        }
+      }
+    },
+    "Ungültige Nachricht: %@ — %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Ungültige Nachricht: %1$@ — %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid message: %@ — %@"
+          }
+        }
+      }
+    },
+    "VARA" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VARA"
+          }
+        }
+      }
+    },
+    "Verbinde mit %@ …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting to %@ …"
+          }
+        }
+      }
+    },
+    "Verbinde mit %@:%@ …" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verbinde mit %1$@:%2$@ …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting to %@:%@ …"
+          }
+        }
+      }
+    },
+    "Verbinde mit ARDOP-TNC an %@:%@ …" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verbinde mit ARDOP-TNC an %1$@:%2$@ …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting to ARDOP TNC at %@:%@ …"
+          }
+        }
+      }
+    },
+    "Verbinde mit rigctld an %@:%@ für PTT …" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verbinde mit rigctld an %1$@:%2$@ für PTT …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting to rigctld at %@:%@ for PTT …"
+          }
+        }
+      }
+    },
+    "Verbinde mit VARA-Modem an %@:%@ …" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verbinde mit VARA-Modem an %1$@:%2$@ …"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting to VARA modem at %@:%@ …"
+          }
+        }
+      }
+    },
+    "Verbinden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect"
+          }
+        }
+      }
+    },
+    "Verbinden über %@ …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect via %@ …"
+          }
+        }
+      }
+    },
+    "Verbinden über diesen Kanal …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect via this channel …"
+          }
+        }
+      }
+    },
+    "verbindet …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "connecting …"
+          }
+        }
+      }
+    },
+    "Verbindung" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection"
+          }
+        }
+      }
+    },
+    "Verbindung steht, starte B2F-Austausch" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection established, starting B2F exchange"
+          }
+        }
+      }
+    },
+    "Verbindung testen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Test connection"
+          }
+        }
+      }
+    },
+    "Verbindung über %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection via %@"
+          }
+        }
+      }
+    },
+    "Verbindung zu %@ fehlgeschlagen: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Verbindung zu %1$@ fehlgeschlagen: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection to %@ failed: %@"
+          }
+        }
+      }
+    },
+    "Verbindung zum Funkgerät — einrichten unter Einstellungen → Funkgerät." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection to the rig — set up under Settings → Rig."
+          }
+        }
+      }
+    },
+    "Verbindung zum Funkgerät verloren — Kabel und Stromversorgung prüfen, dann neu verbinden." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection to the rig lost — check cable and power supply, then reconnect."
+          }
+        }
+      }
+    },
+    "Verbindungen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connections"
+          }
+        }
+      }
+    },
+    "Verbunden, starte B2F-Austausch" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connected, starting B2F exchange"
+          }
+        }
+      }
+    },
+    "Verfahren" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protocol"
+          }
+        }
+      }
+    },
+    "Versand" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sending"
+          }
+        }
+      }
+    },
+    "Versandweg" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route"
+          }
+        }
+      }
+    },
+    "Versandweg: %@ — %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Versandweg: %1$@ — %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route: %@ — %@"
+          }
+        }
+      }
+    },
+    "Verschieben" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move"
+          }
+        }
+      }
+    },
+    "Verschieben nach" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move to"
+          }
+        }
+      }
+    },
+    "Volle Leistung bei ruhiger ALC — %@ gemessen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full power with quiet ALC — %@ measured."
+          }
+        }
+      }
+    },
+    "Von:" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "From:"
+          }
+        }
+      }
+    },
+    "Vorhersage-Stunden" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forecast hours"
+          }
+        }
+      }
+    },
+    "Wähle einen Kontakt aus oder lege mit «+» einen neuen an." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a contact or create a new one with “+”."
+          }
+        }
+      }
+    },
+    "Wähle links eine Sitzung." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a session on the left."
+          }
+        }
+      }
+    },
+    "Wähle links in der Liste eine Nachricht, um sie zu lesen." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select a message in the list on the left to read it."
+          }
+        }
+      }
+    },
+    "Warnung: QRG-Wiederherstellung fehlgeschlagen: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warning: restoring the QRG failed: %@"
+          }
+        }
+      }
+    },
+    "Warnung: Sendepegel konnte nicht gesetzt werden (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warning: drive level could not be set (%@)"
+          }
+        }
+      }
+    },
+    "Warnung: Tune abgebrochen (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warning: Tune aborted (%@)"
+          }
+        }
+      }
+    },
+    "Webseite als Text (Saildocs) …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Web page as text (Saildocs) …"
+          }
+        }
+      }
+    },
+    "Weg" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route"
+          }
+        }
+      }
+    },
+    "Weg zum Funkgerät" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route to the rig"
+          }
+        }
+      }
+    },
+    "Weg zum Gerät" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route to the rig"
+          }
+        }
+      }
+    },
+    "Weitere Adressen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More addresses"
+          }
+        }
+      }
+    },
+    "Weiterleiten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forward"
+          }
+        }
+      }
+    },
+    "Werkzeuge" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tools"
+          }
+        }
+      }
+    },
+    "West (°)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "West (°)"
+          }
+        }
+      }
+    },
+    "Wetter Bodensee" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lake Constance weather"
+          }
+        }
+      }
+    },
+    "Wie eingegeben" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As entered"
+          }
+        }
+      }
+    },
+    "Willkommen bei Skywave" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to Skywave"
+          }
+        }
+      }
+    },
+    "Winlink" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Winlink"
+          }
+        }
+      }
+    },
+    "Winlink-Katalog-Hilfe anfordern" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request Winlink catalog help"
+          }
+        }
+      }
+    },
+    "Winlink-Katalog-Item …" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Winlink catalog item …"
+          }
+        }
+      }
+    },
+    "Winlink-Konto" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Winlink account"
+          }
+        }
+      }
+    },
+    "Winlink-Mail, nativ auf dem Mac" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Winlink mail, native on the Mac"
+          }
+        }
+      }
+    },
+    "wird nach der Sitzung wiederhergestellt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "will be restored after the session"
+          }
+        }
+      }
+    },
+    "Wird nur bei einem Austausch über Funk (VARA/ARDOP) gesendet." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is sent only during an exchange over radio (VARA/ARDOP)."
+          }
+        }
+      }
+    },
+    "Wird nur bei einem Austausch über Internet (CMS) gesendet." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is sent only during an exchange over the Internet (CMS)."
+          }
+        }
+      }
+    },
+    "Wo soll Skywave deine Daten ablegen?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where should Skywave store your data?"
+          }
+        }
+      }
+    },
+    "Zeit (UTC)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time (UTC)"
+          }
+        }
+      }
+    },
+    "Zeitüberschreitung: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Timeout: %@"
+          }
+        }
+      }
+    },
+    "Zuerst das Rufzeichen in den Einstellungen (⌘,) hinterlegen" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First enter your callsign in Settings (⌘,)"
+          }
+        }
+      }
+    },
+    "Zuletzt" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last"
+          }
+        }
+      }
+    },
+    "Zuletzt mit %@: %@" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Zuletzt mit %1$@: %2$@"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last with %@: %@"
+          }
+        }
+      }
+    },
+    "Zurückgehalten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Held back"
+          }
+        }
+      }
+    },
+    "Zurückgestellt: «%@» (%@ kB, Grenze %@ kB)" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Zurückgestellt: «%1$@» (%2$@ kB, Grenze %3$@ kB)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deferred: “%@” (%@ kB, limit %@ kB)"
+          }
+        }
+      }
+    },
+    "Zurückhalten" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hold back"
+          }
+        }
+      }
+    },
+    "Zweiton für höchstens 15 s, zum Einstellen von Pegel und ALC. Nur auf freier Frequenz oder in die Kunstlast." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Two-tone for at most 15 s, for setting level and ALC. Only on a clear frequency or into a dummy load."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,147 @@
+# Skywave — native macOS Winlink mail client (telnet/CMS only).
+# Xcode project is generated from this file: `xcodegen generate`
+# Do NOT edit build settings in Xcode directly — they live here.
+name: Skywave
+options:
+  bundleIdPrefix: ch.hb9hji
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  # Die App ist deutsch: ohne das erscheinen die Systemmenüs englisch.
+  developmentLanguage: de
+
+packages:
+  WinlinkKit:
+    path: ../WinlinkKit
+  Sparkle:
+    url: https://github.com/sparkle-project/Sparkle
+    from: "2.9.0"
+
+targets:
+  Skywave:
+    type: application
+    platform: macOS
+    sources:
+      - path: Skywave
+        excludes:
+          - Vendor/**
+      # Bundled ardopcf modem: the universal binary goes to
+      # Contents/MacOS (found via url(forAuxiliaryExecutable:)),
+      # version and license notes into Resources.
+      - path: Skywave/Vendor/ardopcf/ardopcf
+        buildPhase:
+          copyFiles:
+            destination: executables
+      - path: Skywave/Vendor/ardopcf/VERSION
+        buildPhase: resources
+      - path: Skywave/Vendor/ardopcf/THIRD-PARTY-LICENSES-macos.md
+        buildPhase: resources
+      # Bundled Hamlib rigctld (rig control daemon): same treatment as
+      # ardopcf. A separate GPL program, shipped with its licence.
+      - path: Skywave/Vendor/hamlib/rigctld
+        buildPhase:
+          copyFiles:
+            destination: executables
+      - path: Skywave/Vendor/hamlib/HAMLIB-VERSION
+        buildPhase: resources
+      - path: Skywave/Vendor/hamlib/HAMLIB-COPYING
+        buildPhase: resources
+      - path: Skywave/Vendor/hamlib/HAMLIB-COPYING.LIB
+        buildPhase: resources
+    dependencies:
+      - package: WinlinkKit
+      # Sparkle is a binary xcframework; Xcode embeds & signs it into
+      # Contents/Frameworks (brings its sandbox Installer XPC service).
+      - package: Sparkle
+    preBuildScripts:
+      # Writes the Winlink Web Services key straight into the built
+      # bundle's Resources. The key lives outside the repository
+      # (SKYWAVE_WEBSERVICE_KEY or ~/.config/skywave/webservice-key), so
+      # nothing generated ever lands in the source tree. Without a key
+      # the app falls back to the built-in gateway list.
+      - name: Inject Winlink web-service key
+        basedOnDependencyAnalysis: false
+        script: '"$SRCROOT/scripts/generate-webservice-key.sh"'
+    postBuildScripts:
+      # Xcode signs the app last but does not touch the copied helpers;
+      # sign them here with hardened runtime and the inherit sandbox
+      # entitlements (required for a child process of a sandboxed app).
+      - name: Sign bundled helpers
+        basedOnDependencyAnalysis: false
+        script: |
+          IDENTITY="${EXPANDED_CODE_SIGN_IDENTITY:--}"
+          EXTRA=""
+          [ "$IDENTITY" != "-" ] && EXTRA="--timestamp"
+          for NAME in ardopcf rigctld; do
+            HELPER="$TARGET_BUILD_DIR/$EXECUTABLE_FOLDER_PATH/$NAME"
+            [ -f "$HELPER" ] || continue
+            codesign --force --options runtime $EXTRA \
+              --entitlements "$SRCROOT/Skywave/ardopcf-helper.entitlements" \
+              --sign "$IDENTITY" "$HELPER"
+          done
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: ch.hb9hji.skywave
+        PRODUCT_NAME: Skywave
+        MARKETING_VERSION: 0.8.0
+        CURRENT_PROJECT_VERSION: 14
+        SWIFT_VERSION: "6.0"
+        SWIFT_STRICT_CONCURRENCY: complete
+        # Der Compiler meldet alle übersetzbaren Texte (SwiftUI-Aufrufe,
+        # String(localized:)); ohne das findet der Lokalisierungs-Export
+        # nur Text("…"). Xcode-Vorlagen setzen beides, xcodegen nicht.
+        SWIFT_EMIT_LOC_STRINGS: YES
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_ENTITLEMENTS: Skywave/Skywave.entitlements
+        GENERATE_INFOPLIST_FILE: YES
+        # Partial Info.plist holding the custom Sparkle keys; Xcode merges
+        # the generated CFBundle*/INFOPLIST_KEY_* entries on top of it.
+        INFOPLIST_FILE: Skywave/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_NSHumanReadableCopyright: "© 2026 Christian Müller, HB9HJI. MIT license."
+        INFOPLIST_KEY_CFBundleDisplayName: Skywave
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "Skywave nutzt den Audio-Eingang, um das Funksignal für das integrierte ARDOP-Modem zu empfangen."
+        INFOPLIST_KEY_NSLocationUsageDescription: "Skywave ermittelt den Standort nur auf Wunsch für eine Winlink-Positionsmeldung."
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "Skywave ermittelt den Standort nur auf Wunsch für eine Winlink-Positionsmeldung."
+        DEVELOPMENT_TEAM: MS6HQ7BNA9
+      configs:
+        # Debug builds sign automatically with the development certificate;
+        # Release builds are signed for Developer ID distribution (H4).
+        Debug:
+          CODE_SIGN_STYLE: Automatic
+        Release:
+          CODE_SIGN_STYLE: Manual
+          CODE_SIGN_IDENTITY: "Developer ID Application"
+
+  SkywaveTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - Tests
+    dependencies:
+      - target: Skywave
+    settings:
+      base:
+        SWIFT_VERSION: "6.0"
+        GENERATE_INFOPLIST_FILE: YES
+        # Must be signed by the same team as the app, or the test
+        # bundle fails to load ("different Team IDs").
+        DEVELOPMENT_TEAM: MS6HQ7BNA9
+        CODE_SIGN_STYLE: Automatic
+
+schemes:
+  Skywave:
+    build:
+      targets:
+        Skywave: all
+    run:
+      config: Debug
+    test:
+      # Die Tests prüfen deutsche Texte: Sprache festlegen, damit der
+      # Lauf nicht von der Systemsprache oder der Sprachwahl abhängt.
+      language: de
+      targets:
+        - SkywaveTests

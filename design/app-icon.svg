@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1e4a"/>
+      <stop offset="0.55" stop-color="#14418f"/>
+      <stop offset="1" stop-color="#2a6fd6"/>
+    </linearGradient>
+    <linearGradient id="earth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123a7a"/>
+      <stop offset="1" stop-color="#0a2250"/>
+    </linearGradient>
+    <linearGradient id="iono" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7fd4ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9fe1ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7fd4ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- icon plate -->
+  <rect x="100" y="100" width="824" height="824" rx="185" ry="185" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#cfe6ff">
+    <circle cx="240" cy="240" r="5" opacity="0.9"/>
+    <circle cx="380" cy="180" r="3.5" opacity="0.7"/>
+    <circle cx="700" cy="210" r="4.5" opacity="0.8"/>
+    <circle cx="800" cy="330" r="3" opacity="0.6"/>
+    <circle cx="180" cy="400" r="3" opacity="0.6"/>
+    <circle cx="560" cy="150" r="3" opacity="0.65"/>
+    <circle cx="840" cy="190" r="3.5" opacity="0.7"/>
+  </g>
+
+  <!-- ionosphere band -->
+  <rect x="140" y="236" width="744" height="26" fill="url(#iono)" rx="13"/>
+
+  <!-- earth, drawn inside the plate (no clipping) -->
+  <path d="M 104 862 Q 512 750 920 862 L 920 866 Q 920 924 810 924 L 214 924 Q 104 924 104 866 Z"
+        fill="url(#earth)"/>
+  <path d="M 116 858 Q 512 748 908 858" fill="none" stroke="#6db4ff" stroke-width="8" opacity="0.85"/>
+
+  <!-- skywave hop: station -> ionosphere -> station -->
+  <path d="M 250 856 Q 380 260 512 252 Q 644 260 774 856"
+        fill="none" stroke="#ffd97a" stroke-width="22"
+        stroke-linecap="round" stroke-dasharray="2 44"/>
+
+  <!-- reflection glow -->
+  <circle cx="512" cy="250" r="26" fill="#ffe9ad"/>
+  <circle cx="512" cy="250" r="52" fill="#ffe9ad" opacity="0.25"/>
+
+  <!-- transmitting station (left) -->
+  <circle cx="250" cy="856" r="18" fill="#ffd97a"/>
+
+  <!-- envelope arriving (right) -->
+  <g transform="translate(774 820)">
+    <rect x="-86" y="-56" width="172" height="120" rx="18" fill="#ffffff"/>
+    <path d="M -86 -44 L 0 22 L 86 -44" fill="none" stroke="#2a6fd6" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
